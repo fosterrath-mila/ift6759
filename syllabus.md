@@ -18,7 +18,7 @@ Each student will be involved in 4 main deliverables: one deliverable (code + be
 Code provided by a team at the end of a block will be peer-reviewed by 2 other teams working on the same project in that block. The code will also be reviewed by the TAs.
 The reports, best models, and final presentations will all only be reviewed by the TAs.
 
-The [full evaluation grid is available here.](https://docs.google.com/document/d/18b12R083LrFUl4fYzzT33glXnuAwrhgWGER1_bJEkes/edit#)
+The [full evaluation grid is available here.](https://github.com/mila-udem/ift6759/blob/master/evaluation-grid.pdf)
 
 ### Instructors and Contact
 All questions can be sent to the following email address: [ift6759@mila.quebec](ift6759@mila.quebec).
@@ -55,7 +55,7 @@ The document must be signed and returned before January 16th. A paper version ca
 
 - [OMsignal project]()
 
-- [Git and Github tutorials](https://docs.google.com/presentation/d/18NW8t37PMOxR5DoWp7U_KmIdlY9mPtrbHh0QBtjBebk/edit)
+- [Git and Github tutorials](https://github.com/mila-udem/ift6759/blob/master/tutorials/git-tutorial.pdf)
 
 
 #### Friday, January 11th
@@ -66,7 +66,7 @@ The document must be signed and returned before January 16th. A paper version ca
 
 #### Homework
 
- - [Python, Numpy and PEP8 tutorials](https://docs.google.com/document/d/1XHxrZM5Su-3M_NYmARdueu9lCf0HdlRuzHOCij_lxuo)
+ - [Python, Numpy and PEP8 tutorials](https://github.com/mila-udem/ift6759/blob/master/tutorials/python-numpy-pytorch.pdf)
 
 
 
