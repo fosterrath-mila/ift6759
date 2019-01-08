@@ -21,7 +21,7 @@ The reports, best models, and final presentations will all only be reviewed by t
 The [full evaluation grid is available here.](https://github.com/mila-udem/ift6759/blob/master/evaluation-grid.pdf)
 
 ### Instructors and Contact
-All questions can be sent to the following email address: [ift6759@mila.quebec](ift6759@mila.quebec).
+All questions can be sent to the following email address: <ift6759@mila.quebec>.
 If you have a question for a specific project, please write the name of the project (Horoma, Humanware, OMsignal) between brackets (e.g. [ProjectName]: object of the question) in the email header.
 
 ### Class Schedule
@@ -39,7 +39,7 @@ A set of GPUs will be reserved for 8 hours, starting 30 minutes before the begin
 
 ### NDA
 The NDA can be found here ([french](https://github.com/mila-udem/ift6759/blob/master/nda/nda-francais.pdf), [english](https://github.com/mila-udem/ift6759/blob/master/nda/nda-english.pdf)).
-The document must be signed and returned before January 16th. A paper version can be given to the TAs or a scanned version can be sent to [ift6759@mila.quebec](ift6759@mila.quebec). 
+The document must be signed and returned before January 16th. A paper version can be given to the TAs or a scanned version can be sent to <ift6759@mila.quebec>. 
 
 ## Agenda
 
@@ -47,7 +47,7 @@ The document must be signed and returned before January 16th. A paper version ca
 
 #### Wednesday, January 9th
 
-- [Horoma project]()
+- [Horoma project - TODO]()
 
 - [Humanware project](https://github.com/mila-udem/ift6759/blob/master/projects/intro-humanware.pdf)
 
