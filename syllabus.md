@@ -39,10 +39,9 @@ Friday: 11:30 - 12:30 (Tech Transfer team space on the 2nd floor of the Mila off
 A set of GPUs will be reserved for 8 hours, starting 30 minutes before the beginning of each class. Outside those reserved periods, the policy to access the cluster is first-come first-served.
 
 ### NDA
-The NDA can be found here (french, english).
+The NDA can be found here ([french](https://github.com/mila-udem/ift6759/blob/master/nda/nda-francais.pdf), [english](https://github.com/mila-udem/ift6759/blob/master/nda/nda-english.pdf)).
 The document must be signed and returned before January 16th. A paper version can be given to the TAs or a scanned version can be sent to [ift6759@mila.quebec](ift6759@mila.quebec). 
 
-
 ## Agenda
 
 ### Week 1 [Jan. 7 - 11]: Introduction to the class
