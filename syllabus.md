@@ -2,14 +2,14 @@
 ## Course Description
 This is a course about applying machine learning theory to real-world industrial projects. The problem descriptions and the datasets come from industrial partners. Students will mainly focus on understanding a problem along with the available data and defining machine learning solutions that yield high performance. They will also acquire knowledge specific to software development for machine learning projects such as writing high-quality code and readable documentation in Python, and using collaborative tools and machine learning libraries. Finally, students will develop their (oral and written) communication skills by preparing reports and a presentation explaining the solutions they developed and the results they obtained.
 
-__Course structure__
+### Course structure
 The course will cover 3 different projects in parallel, each with their unique characteristics and challenges. Each project will be divided into 3 consecutive blocks of 4 weeks each, with a final presentation at the end of the semester:
 
 Machine learning solutions of increasing complexity will be developed as we move from block to block.
 
 Students will work on all 3 projects on a rotation basis: at the beginning of each block, new teams of 4 students each will be created. One third of the teams will work on each project. Those teams will work independently of each other and will each strive to obtain the best possible performance for the tasks defined for the project for the block. At the end of the block, each team will provide a deliverable (code + best model + report). Those deliverables along with a baseline built by the TAs for the block will be made available for the teams who will be assigned to the next block of the same project. Those teams will each need to select one of the deliverables or the TA baseline as a starting point for the work they will do in the next block. This process will continue up to the end of block 3. Each team assigned to a particular project in block 3 will also be responsible for preparing a final presentation for the entire project. The presentations will be delivered in front of the students as well as representatives from the companies.
 
-__Instruction Style__
+### Instruction Style
 Tutorials will be presented during the first week of the course, as well as the first week of each block. The remaining class time will be used by students to work on the projects. TAs will be available during classes to support students. (It is expected that students will continue to work on the projects outside class hours.)
 
 ### Evaluation
@@ -35,7 +35,6 @@ Friday: 9:30-11:30 (Mila Auditorium)
 Friday: 11:30 - 12:30 (Tech Transfer team space on the 2nd floor of the Mila office at 6666 St-Urbain).
 
 ### GPU Computing Resources
-
 A set of GPUs will be reserved for 8 hours, starting 30 minutes before the beginning of each class. Outside those reserved periods, the policy to access the cluster is first-come first-served.
 
 ### NDA
@@ -50,16 +49,16 @@ The document must be signed and returned before January 16th. A paper version ca
 
 - [Horoma project]()
 
-- [Humanware project]()
+- [Humanware project](https://github.com/mila-udem/ift6759/blob/master/projects/intro-humanware.pdf)
 
-- [OMsignal project]()
+- [OMsignal project](https://github.com/mila-udem/ift6759/blob/master/projects/intro-omsignal.pdf)
 
 - [Git and Github tutorials](https://github.com/mila-udem/ift6759/blob/master/tutorials/git-tutorial.pdf)
 
 
 #### Friday, January 11th
 
-- [Torque, Singularity  nvidia-smi tutorials](https://docs.google.com/presentation/d/1gSK8ReyXxkrVJr4M-i7KWl0cz6sIcQuliMrL0lea5F0/edit#slide=id.p)
+- [Torque, Singularity  nvidia-smi tutorials](https://github.com/mila-udem/ift6759/blob/master/tutorials/cluster.pdf)
 
 - [Pytorch Notebook tutorial](http://nbviewer.jupyter.org/github/ds4dm/tipsntricks/blob/master/pytorch/tutorial.ipynb)
 
