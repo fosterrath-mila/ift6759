@@ -32,7 +32,8 @@ The course begins on January 9th and finishes during the week of April 15th.
 
 ### Class hours:
 Wednesday: 15:30-17:30 (Mila Auditorium)
-Friday: 9:30-11:30 (Mila Auditorium)
+
+Friday: 14:30-16:30 (Mila Auditorium)
 
 ### Office Hours
 Friday: 11:30 - 12:30 (Tech Transfer team space on the 2nd floor of the Mila office at 6666 St-Urbain).
