@@ -5,6 +5,9 @@ This is a course about applying machine learning theory to real-world industrial
 ### Course structure
 The course will cover 3 different projects in parallel, each with their unique characteristics and challenges. Each project will be divided into 3 consecutive blocks of 4 weeks each, with a final presentation at the end of the semester:
 
+![progress.png](https://github.com/mila-udem/ift6759/blob/master/img/progress.png "Progress")
+
+
 Machine learning solutions of increasing complexity will be developed as we move from block to block.
 
 Students will work on all 3 projects on a rotation basis: at the beginning of each block, new teams of 4 students each will be created. One third of the teams will work on each project. Those teams will work independently of each other and will each strive to obtain the best possible performance for the tasks defined for the project for the block. At the end of the block, each team will provide a deliverable (code + best model + report). Those deliverables along with a baseline built by the TAs for the block will be made available for the teams who will be assigned to the next block of the same project. Those teams will each need to select one of the deliverables or the TA baseline as a starting point for the work they will do in the next block. This process will continue up to the end of block 3. Each team assigned to a particular project in block 3 will also be responsible for preparing a final presentation for the entire project. The presentations will be delivered in front of the students as well as representatives from the companies.
