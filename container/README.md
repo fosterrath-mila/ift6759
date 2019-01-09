@@ -9,12 +9,12 @@ To be able to run this image on Helios you need to first run the following comma
 
 `module --force purge ; export PATH=$PATH:/opt/software/singularity-3.0/bin/`
 
-We highly recommant to simply put it in your `~/.bashrc`
+We highly recommend to simply put it in your `~/.bashrc`
 
 When singularity is properly loaded, you simply have to run `singularity shell --nv /rap/jvb-000-aa/COURS2019/etudiants/ift6759.simg` to load all the dependencies you should need and you are ready to run some code.
 
 ## Build
-You should not need to re-build and image from scratch but if you are interested it goes as follows. Note that you need admin right to be able to build images.
+You should not need to re-build an image from scratch but if you are interested it goes as follows. Note that you need admin right to be able to build images.
 
 To build the ift6759.simg image you first need to download the [recipe we used](https://github.com/mila-udem/ift6759/blob/master/container/build_ift6759_img.sh) and [version 10 of cuDNN](https://developer.nvidia.com/compute/machine-learning/cudnn/secure/v7.4.2/prod/10.0_20181213/cudnn-10.0-linux-x64-v7.4.2.24.tgz) to your home directory.
 
