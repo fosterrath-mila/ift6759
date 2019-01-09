@@ -62,13 +62,13 @@ The document must be signed and returned before January 16th. A paper version ca
 
 #### Friday, January 11th
 
-- [Torque, Singularity  nvidia-smi tutorials](https://github.com/mila-udem/ift6759/blob/master/tutorials/cluster.pdf)
+- [Cluster and tools tutorial](https://github.com/mila-udem/ift6759/blob/master/tutorials/cluster.pdf)
 
 - [Pytorch Notebook tutorial](http://nbviewer.jupyter.org/github/ds4dm/tipsntricks/blob/master/pytorch/tutorial.ipynb)
 
 #### Homework
 
- - [Python, Numpy and PEP8 tutorials](https://github.com/mila-udem/ift6759/blob/master/tutorials/python-numpy-pytorch.pdf)
+ - [Python, Numpy and PEP8 tutorials](https://github.com/mila-udem/ift6759/blob/master/tutorials/python-numpy-pytorch.md)
 
 
 
