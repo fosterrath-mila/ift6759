@@ -23,7 +23,7 @@ The reports, best models, and final presentations will all only be reviewed by t
 
 The [full evaluation grid is available here.](https://github.com/mila-udem/ift6759/blob/master/evaluation-grid.pdf)
 
-### Instructors and Contact
+### Contact
 All questions can be sent to the following email address: <ift6759@mila.quebec>.
 If you have a question for a specific project, please write the name of the project (Horoma, Humanware, OMsignal) between brackets (e.g. [ProjectName]: object of the question) in the email header.
 
