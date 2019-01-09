@@ -51,7 +51,7 @@ The document must be signed and returned before January 16th. A paper version ca
 
 #### Wednesday, January 9th
 
-- [Horoma project - TODO]()
+- [Horoma project](https://github.com/mila-udem/ift6759/blob/master/projects/intro-horoma.pdf)
 
 - [Humanware project](https://github.com/mila-udem/ift6759/blob/master/projects/intro-humanware.pdf)
 
