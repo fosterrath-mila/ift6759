@@ -7,9 +7,9 @@ The Singularity image that you will need to use is stored on the Compute Canada 
 ## Run
 To be able to run this image on Helios you need to first run the following command to load singularity.
 
-`module --force purge ; export PATH=$PATH:/opt/software/singularity-3.0/bin/`
+`source /rap/jvb-000-aa/COURS2019/etudiants/common.env`
 
-We highly recommend to simply put it in your `~/.bashrc`
+And then add it at the end of yout `~/.bashrc` using `echo 'source /rap/jvb-000-aa/COURS2019/etudiants/common.env' >> ~/.bashrc`
 
 When singularity is properly loaded, you simply have to run `singularity shell --nv /rap/jvb-000-aa/COURS2019/etudiants/ift6759.simg` to load all the dependencies you should need and you are ready to run some code.
 
