@@ -45,31 +45,3 @@ A set of GPUs will be reserved for 8 hours, starting 30 minutes before the begin
 The NDA can be found here ([french](https://github.com/mila-udem/ift6759/blob/master/nda/nda-francais.pdf), [english](https://github.com/mila-udem/ift6759/blob/master/nda/nda-english.pdf)).
 The document must be signed and returned before January 16th. A paper version can be given to the TAs or a scanned version can be sent to <ift6759@mila.quebec>. 
 
-## Agenda
-
-### Week 1 [Jan. 7 - 11]: Introduction to the class
-
-#### Wednesday, January 9th
-
-- [Horoma project](https://github.com/mila-udem/ift6759/blob/master/projects/intro-horoma.pdf)
-
-- [Humanware project](https://github.com/mila-udem/ift6759/blob/master/projects/intro-humanware.pdf)
-
-- [OMsignal project](https://github.com/mila-udem/ift6759/blob/master/projects/intro-omsignal.pdf)
-
-- [Git and Github tutorials](https://github.com/mila-udem/ift6759/blob/master/tutorials/git-tutorial.pdf)
-
-
-#### Friday, January 11th
-
-- [Cluster and tools tutorial](https://github.com/mila-udem/ift6759/blob/master/tutorials/cluster.pdf)
-
-- [Pytorch Notebook tutorial](http://nbviewer.jupyter.org/github/ds4dm/tipsntricks/blob/master/pytorch/tutorial.ipynb)
-
-#### Homework
-
- - [Python, Numpy and PEP8 tutorials](https://github.com/mila-udem/ift6759/blob/master/tutorials/python-numpy-pytorch.md)
-
-
-
-

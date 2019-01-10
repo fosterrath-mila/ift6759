@@ -2,7 +2,8 @@
 IFT6759 is a course about implementing deep learning theory to real-world industrial projects.
 
 ## Important files
-- The [syllabus](https://github.com/mila-udem/ift6759/blob/master/syllabus.md) which also include the __Weekly Agenda__ and the __Homeworks__ for every giver weeks.
+- The [Syllabus](https://github.com/mila-udem/ift6759/blob/master/syllabus.md).
+- The [Weekly Agenda](https://github.com/mila-udem/ift6759/blob/master/agenda.md) which contains the __deadlines__, the __links to the material__ and the __homeworks__. 
 - How to run the [containers](https://github.com/mila-udem/ift6759/tree/master/container).
 
 
