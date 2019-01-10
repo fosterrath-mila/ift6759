@@ -9,7 +9,9 @@ To be able to run this image on Helios you need to first run the following comma
 
 `source /rap/jvb-000-aa/COURS2019/etudiants/common.env`
 
-And then add it at the end of yout `~/.bashrc` using `echo 'source /rap/jvb-000-aa/COURS2019/etudiants/common.env' >> ~/.bashrc`
+And then append it at the end of your `~/.bashrc` using 
+
+`echo 'source /rap/jvb-000-aa/COURS2019/etudiants/common.env' >> ~/.bashrc`
 
 When singularity is properly loaded, you simply have to run `singularity shell --nv /rap/jvb-000-aa/COURS2019/etudiants/ift6759.simg` to load all the dependencies you should need and you are ready to run some code.
 
