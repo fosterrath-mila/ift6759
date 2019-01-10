@@ -1,6 +1,6 @@
 ## Deadlines
 
-- No deliverable for now, you should complete all the tutorials by __Wednesday January 16th__. 
+- No deliverable for now, you should complete all the [readings and tutorials](https://github.com/mila-udem/ift6759/blob/master/tutorials/python-numpy-pytorch.md) by __Wednesday January 16th__. 
 
 ## Agenda
 
