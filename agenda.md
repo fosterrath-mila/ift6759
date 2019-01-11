@@ -1,5 +1,7 @@
 ## Deadlines
 
+- The NDA must be signed and returned before January 16th. See at the end of the [Syllabus](https://github.com/mila-udem/ift6759/blob/master/syllabus.md) for further details.
+
 - No deliverable for now, you should complete all the [readings and tutorials](https://github.com/mila-udem/ift6759/blob/master/tutorials/python-numpy-pytorch.md) by __Wednesday January 16th__. 
 
 ## Agenda
