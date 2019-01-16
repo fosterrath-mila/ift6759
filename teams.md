@@ -39,7 +39,7 @@ Mani Parviz Haggi Mani | user37 | b1phut3
 Ramón Emiliani | user41 | b1phut3
 Philippe Helal | user38 | b1phut4
 Yishi Xu | user49 | b1phut4
-Mohammed Loukili | user34 | b1phut4
+Georgina Jiménez Ambriz | user55 | b1phut4
 Akila Jeeson Daniel | user4 | b1phut5
 Basile Dura | user10 | b1phut5
 Timothy Nest | user45 | b1phut5
@@ -53,9 +53,8 @@ Isaac Ahouma | user19 | b1pomt1
 Emilio Botero | user14 | b1pomt1
 Dridi Houssem Eddine Dridi | user18 | b1pomt1
 Ishaan Kumar | user20 | b1pomt2
-Marc Demers | user31 | b1pomt2
+Hugo Lafortune | user31 | b1pomt2
 Nicolas Laliberté | user36 | b1pomt2
-Aboubaker Aden Houssein | user2 | b1pomt2
 Sahar Bahrami | user43 | b1pomt3
 Joseph Viviano | user25 | b1pomt3
 Badreddine Sayah | user9 | b1pomt3
