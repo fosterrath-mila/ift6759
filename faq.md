@@ -3,7 +3,7 @@
 2. [Is it mandatory to do the final presentation in English?](#q_lang)
 3. [How many hours should I expect to work outside of the class hours?](#q_hour)
 
-#FAQ
+# FAQ
 
 ## I tried to connect to Helios multiple times with the wrong password and now, I cannot connect anymore, what should I do? <a name="q_ban"></a>
 
