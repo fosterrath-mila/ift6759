@@ -1,10 +1,25 @@
 ## Deadlines
 
-- The NDA must be signed and returned before January 16th. See at the end of the [Syllabus](https://github.com/mila-udem/ift6759/blob/master/syllabus.md) for further details.
+- Each team needs to provide the deliverable (report + code + best model) corresponding
+to a block at the latest on __Friday, February 8th at noon (12:00pm)__.
 
-- No deliverable for now, you should complete all the [readings and tutorials](https://github.com/mila-udem/ift6759/blob/master/tutorials/python-numpy-pytorch.md) by __Wednesday January 16th__. 
+- ~~The NDA must be signed and returned before January 16th. See at the end of the [Syllabus](https://github.com/mila-udem/ift6759/blob/master/syllabus.md) for further details.~~
+
+- ~~No deliverable for now, you should complete all the [readings and tutorials](https://github.com/mila-udem/ift6759/blob/master/tutorials/python-numpy-pytorch.md) by __Wednesday January 16th__.~~ 
 
 ## Agenda
+
+### Week 2 [Jan. 14 - 18]: Block 1 first week
+
+#### Wednesday, January 16th
+
+- [Block 1 Common Presentations](https://github.com/mila-udem/ift6759/blob/master/tutorials/common-week2.pdf) will be presented in the auditorium at 15h30.
+
+- [Horoma block 1](https://github.com/mila-udem/ift6759/blob/master/projects/horoma/slides/horoma-block1.pdf) will be presented in the TODO after the common presentations.
+
+- [Humanware block 1](https://github.com/mila-udem/ift6759/blob/master/projects/humanware/slides/humanware-block1.pdf) will be presented in the TODO after the common presentations.
+
+- [OMsignal block 1](https://github.com/mila-udem/ift6759/blob/master/projects/omsignal/slides/omsignal-block1.pdf) will be presented in the TODO after the common presentations.
 
 ### Week 1 [Jan. 7 - 11]: Introduction to the class
 
