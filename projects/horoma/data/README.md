@@ -1,3 +1,5 @@
+The data can be find on Helios at `/rap/jvb-000-aa/COURS2019/etudiants/data/horoma`.
+
 We ask for the project that you only use the data provided by Mila as we will keep the test set blind.
 The data consits of pixel patches that we extracted from 3 different images. We have formatted the original data so that it can easily be imported in Python.
 A shared disk contains the available training and validation sets.
