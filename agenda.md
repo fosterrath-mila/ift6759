@@ -21,7 +21,7 @@ to a block at the latest on __Friday, February 8th at noon (12:00pm)__.
 
 - [OMsignal block 1 description](https://github.com/mila-udem/ift6759/blob/master/projects/omsignal-block1.pdf) will be presented in the __A.14 Mila meeting room__ after the common presentations.
 
-### Week 1 [Jan. 7 - 11]: Introduction to the class
+### Week 1 [Jan. 7 - 11]: Introduction to the class <a name="first_week"></a>
 
 #### Wednesday, January 9th
 
