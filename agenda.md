@@ -15,11 +15,11 @@ to a block at the latest on __Friday, February 8th at noon (12:00pm)__.
 
 - [Block 1 Common Presentations](https://github.com/mila-udem/ift6759/blob/master/tutorials/common-week2.pdf) will be presented in the __Mila auditorium at 15h30__.
 
-- [Horoma block 1 description](https://github.com/mila-udem/ift6759/blob/master/projects/horoma-block1.pdf) will be presented in the __F.01 Mila meeting room__ after the common presentations.
+- [Horoma block 1 description](https://github.com/mila-udem/ift6759/blob/master/projects/horoma/slides/horoma-block1.pdf) will be presented in the __F.01 Mila meeting room__ after the common presentations.
 
-- [Humanware block 1 description](https://github.com/mila-udem/ift6759/blob/master/projects/humanware-block1.pdf) will be presented in the __Mila auditorium__ after the common presentations.
+- [Humanware block 1 description](https://github.com/mila-udem/ift6759/blob/master/projects/humanware/slides/humanware-block1.pdf) will be presented in the __Mila auditorium__ after the common presentations.
 
-- [OMsignal block 1 description](https://github.com/mila-udem/ift6759/blob/master/projects/omsignal-block1.pdf) will be presented in the __A.14 Mila meeting room__ after the common presentations.
+- [OMsignal block 1 description](https://github.com/mila-udem/ift6759/blob/master/projects/omsignal/slides/omsignal-block1.pdf) will be presented in the __A.14 Mila meeting room__ after the common presentations.
 
 ### Week 1 [Jan. 7 - 11]: Introduction to the class <a name="first_week"></a>
 
