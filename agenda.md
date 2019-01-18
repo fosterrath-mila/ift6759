@@ -25,11 +25,11 @@ to a block at the latest on __Friday, February 8th at noon (12:00pm)__.
 
 #### Wednesday, January 9th
 
-- [Horoma project](https://github.com/mila-udem/ift6759/blob/master/projects/intro-horoma.pdf)
+- [Horoma project](https://github.com/mila-udem/ift6759/blob/master/projects/horoma/slides/horoma-intro.pdf)
 
-- [Humanware project](https://github.com/mila-udem/ift6759/blob/master/projects/intro-humanware.pdf)
+- [Humanware project](https://github.com/mila-udem/ift6759/blob/master/projects/humanware/slides/humanware-intro.pdf)
 
-- [OMsignal project](https://github.com/mila-udem/ift6759/blob/master/projects/intro-omsignal.pdf)
+- [OMsignal project](https://github.com/mila-udem/ift6759/blob/master/projects/omsignal/slides/omsignal-intro.pdf)
 
 - [Git and Github tutorials](https://github.com/mila-udem/ift6759/blob/master/tutorials/git-tutorial.pdf)
 
