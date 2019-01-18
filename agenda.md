@@ -10,6 +10,9 @@ to a block at the latest on __Friday, February 8th at noon (12:00pm)__.
 ## Agenda
 
 ### Week 2 [Jan. 14 - 18]: Block 1 first week
+#### Friday, January 18th
+
+- Working Session
 
 #### Wednesday, January 16th
 
@@ -22,6 +25,11 @@ to a block at the latest on __Friday, February 8th at noon (12:00pm)__.
 - [OMsignal block 1 description](https://github.com/mila-udem/ift6759/blob/master/projects/omsignal/slides/omsignal-block1.pdf) will be presented in the __A.14 Mila meeting room__ after the common presentations.
 
 ### Week 1 [Jan. 7 - 11]: Introduction to the class <a name="first_week"></a>
+#### Friday, January 11th
+
+- [Cluster and tools tutorial](https://github.com/mila-udem/ift6759/blob/master/tutorials/cluster.pdf)
+
+- [Pytorch Notebook tutorial](http://nbviewer.jupyter.org/github/ds4dm/tipsntricks/blob/master/pytorch/tutorial.ipynb)
 
 #### Wednesday, January 9th
 
@@ -33,17 +41,6 @@ to a block at the latest on __Friday, February 8th at noon (12:00pm)__.
 
 - [Git and Github tutorials](https://github.com/mila-udem/ift6759/blob/master/tutorials/git-tutorial.pdf)
 
-
-#### Friday, January 11th
-
-- [Cluster and tools tutorial](https://github.com/mila-udem/ift6759/blob/master/tutorials/cluster.pdf)
-
-- [Pytorch Notebook tutorial](http://nbviewer.jupyter.org/github/ds4dm/tipsntricks/blob/master/pytorch/tutorial.ipynb)
-
 #### Homework
 
- - [Python, Numpy and PEP8 tutorials](https://github.com/mila-udem/ift6759/blob/master/tutorials/python-numpy-pytorch.md)
-
-
-
-
+- [Python, Numpy and PEP8 tutorials](https://github.com/mila-udem/ift6759/blob/master/tutorials/python-numpy-pytorch.md)
