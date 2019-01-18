@@ -36,7 +36,7 @@ The course begins on January 9th and finishes during the week of April 15th.
 - Friday: 14:30-16:30 (Mila Auditorium)
 
 ### Office Hours
-Friday: 11:30-12:30 (Tech Transfer team space on the 2nd floor of the Mila office at 6666 St-Urbain).
+Friday: 13:30-14:30 (Tech Transfer team space on the 2nd floor of the Mila office at 6666 St-Urbain).
 
 ### GPU Computing Resources
 A set of GPUs will be reserved for 8 hours, starting 30 minutes before the beginning of each class. Outside those reserved periods, the policy to access the cluster is first-come first-served.
