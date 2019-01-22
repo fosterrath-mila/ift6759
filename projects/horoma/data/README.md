@@ -32,6 +32,6 @@ definition_labels.txt: text file containing a list of triples.
 - 2nd value: tree density (percentage*100 rounded at lowest unit of 5).
 - 3rd value: tree height w.r.t. the forest floor (rounded at nearest 5m).
 - The discrete value of each label in valid_y.txt is mapped to the triple corresponding to the row index (starting at 1) in definition_labels.txt that is equal to the value of the label.
-- e.g. if label = 4 then triple = (TO,55,15) (3rd row in definition_labels.txt).
+- e.g. if label = 4 then triple = (TO,55,15) (4th row in definition_labels.txt).
 
 Find clever ways to exploit the information that is given to you to determine the number of clusters.
