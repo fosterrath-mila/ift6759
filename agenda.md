@@ -9,6 +9,13 @@ to a block at the latest on __Friday, February 8th at noon (12:00pm)__.
 
 ## Agenda
 
+### Week 3 [Jan. 21 - 25]: Block 1 second week
+#### Wednesday, January 23th
+
+- New updates in the [Cluster and tools tutorial](https://github.com/mila-udem/ift6759/blob/master/tutorials/cluster.pdf)
+
+- [Week 3 Common Presentations](https://github.com/mila-udem/ift6759/blob/master/tutorials/common-week3.pdf) will be presented in the __Mila auditorium at 15h30__.
+
 ### Week 2 [Jan. 14 - 18]: Block 1 first week
 #### Friday, January 18th
 
