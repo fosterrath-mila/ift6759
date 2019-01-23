@@ -30,8 +30,14 @@ def eval_model(dataset_file, model_filename):
     else:
 
         print("\nYou did not specify a model, generating dummy data instead!")
-        n_classes = 5
-        y_pred = np.random.randint(0, n_classes, (100))
+        n_classes = 32
+        num_data = 10
+
+        y_pred = np.concatenate(
+            [np.random.rand((num_data, 3)), 
+             np.random.randint(0, n_classes, (num_data, 1))
+             ], axis=1
+        )
 
     return y_pred
 
