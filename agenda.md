@@ -10,6 +10,10 @@ to a block at the latest on __Friday, February 8th at noon (12:00pm)__.
 ## Agenda
 
 ### Week 3 [Jan. 21 - 25]: Block 1 second week
+#### Friday, January 25th
+
+- Working Session
+
 #### Wednesday, January 23th
 
 - New updates in the [Cluster and tools tutorial](https://github.com/mila-udem/ift6759/blob/master/tutorials/cluster.pdf).
