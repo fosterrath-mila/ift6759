@@ -9,6 +9,11 @@ to a block at the latest on __Friday, February 8th at noon (12:00pm)__.
 
 ## Agenda
 
+### Week 4 [Jan. 28 - Feb. 1]: Block 1 third week
+#### Wednesday, January 28th
+
+- The evaluation scripts are located in __ift6759/projects/<project_name>/evaluation/__. See [Block 1 Common Presentations](https://github.com/mila-udem/ift6759/blob/master/tutorials/common-week3.pdf) for further information.
+
 ### Week 3 [Jan. 21 - 25]: Block 1 second week
 #### Friday, January 25th
 
