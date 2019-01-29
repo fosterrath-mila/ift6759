@@ -34,7 +34,7 @@ def eval_model(dataset_file, model_filename):
         num_data = 10
 
         y_pred = np.concatenate(
-            [np.random.rand((num_data, 3)), 
+            [np.random.rand(num_data, 3), 
              np.random.randint(0, n_classes, (num_data, 1))
              ], axis=1
         )
