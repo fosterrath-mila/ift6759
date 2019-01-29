@@ -37,7 +37,7 @@ def eval_model(dataset_file, model_filename):
             [np.random.rand(num_data, 3), 
              np.random.randint(0, n_classes, (num_data, 1))
              ], axis=1
-        )
+        ).astype(np.float32)
 
     return y_pred
 
