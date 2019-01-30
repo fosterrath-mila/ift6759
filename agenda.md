@@ -1,7 +1,7 @@
 ## Deadlines
 
 - Each team needs to provide the deliverable (report + code + best model) corresponding
-to a block at the latest on __Friday, February 8th at noon (12:00pm)__.
+to a block at the latest on __Friday, February 8th at 11:59pm__.
 
 - ~~The NDA must be signed and returned before January 16th. See at the end of the [Syllabus](https://github.com/mila-udem/ift6759/blob/master/syllabus.md) for further details.~~
 
@@ -11,6 +11,9 @@ to a block at the latest on __Friday, February 8th at noon (12:00pm)__.
 
 ### Week 4 [Jan. 28 - Feb. 1]: Block 1 third week
 #### Wednesday, January 28th
+
+- The deadline for the first deliverable has been changed to __Friday, February 8th at 11:59pm__. See the [evaluation grid](https://github.com/mila-udem/ift6759/blob/master/evaluation-grid.pdf) for further information.
+
 
 - The evaluation scripts are located in __ift6759/projects/<project_name>/evaluation/__. See [Block 1 Common Presentations](https://github.com/mila-udem/ift6759/blob/master/tutorials/common-week3.pdf) for further information.
 
