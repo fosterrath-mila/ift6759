@@ -8,7 +8,7 @@ Aditya Joshi | user3 | b1phot1
 Yue Guo | user50 | b1phot1
 Alexandre Marcil | user6 | b1phot2
 Marzieh Mehdizadeh | user32 | b1phot2
-Myriam Laiymani | user35 | b1phot2
+Myriam Laiymani* | user35 | b1phot2
 Vincent Morissette-Thomas | user48 | b1phot2
 Julien Allard | user26 | b1phot3
 Fanny Salvail-Bérard | user17 | b1phot3
@@ -35,11 +35,10 @@ Vicki Anand | user46 | b1phut2
 Lawrence Abdulnour | user53 | b1phut2
 Jean-Philippe Letendre | user21 | b1phut3
 Alejandra Jimenez Nieto | user5 | b1phut3
-Mani Parviz Haggi Mani | user37 | b1phut3
 Ramón Emiliani | user41 | b1phut3
 Philippe Helal | user38 | b1phut4
 Yishi Xu | user49 | b1phut4
-Georgina Jiménez Ambriz | user55 | b1phut4
+Yasmine Dumouchel | user56 | b1phut4
 Akila Jeeson Daniel | user4 | b1phut5
 Basile Dura | user10 | b1phut5
 Timothy Nest | user45 | b1phut5
