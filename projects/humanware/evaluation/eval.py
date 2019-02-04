@@ -4,6 +4,9 @@ from pathlib import Path
 import numpy as np
 import torch
 
+import sys
+sys.path.append('..')
+
 
 def eval_model(dataset_dir, metadata_filename, model_filename):
 
