@@ -1,7 +1,7 @@
 # Example Singularity recipe for pytorch on helios
 #
 # Build with:
-# singularity build ift6759.simg build_ift6759_img.sh
+# singularity build --force pytorch.simg Singularity
 
 Bootstrap: docker
 From: ubuntu:16.04
@@ -28,7 +28,7 @@ From: ubuntu:16.04
 %post
     # Basic utilies
     apt-get update
-    apt-get install -y wget gnupg2 curl ca-certificates libopenblas-dev ninja-build vim emacs nano
+    apt-get install -y wget gnupg2 curl ca-certificates libopenblas-dev ninja-build vim emacs nano htop less
     DEBIAN_FRONTEND=noninteractive apt-get install keyboard-configuration -y
 
     # Install CUDA from network deb package
@@ -51,7 +51,7 @@ From: ubuntu:16.04
     export PATH=/miniconda/bin:$PATH
 
     # Install pytorch with conda
-    conda install pytorch=1.0.0 torchvision=0.2.1 cuda100 -c pytorch
-    conda install ipython scikit-learn holoviews seaborn tqdm packaging appdirs git
-    conda install -c conda-forge tensorboardx
-    pip install gpustat easydict
+    conda install python=3.6 pytorch=1.0.0 torchvision=0.2.1 cuda100 -c pytorch
+    conda install ipython scikit-learn holoviews seaborn tqdm packaging appdirs git opencv scikit-image joblib
+    conda install -c conda-forge tensorboardx multicore-tsne
+    pip install gpustat easydict comet_ml
