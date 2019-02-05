@@ -41,6 +41,8 @@ We will be running the code on our own test sets. It is your responsiblity to en
 
 We recommend you test your submissions prior to the deadline.
 
+Keep in mind that we will be running your code, so be sure that it does not depend on local files or environment variables that we would otherwise not be able to access.
+
 ## Deadline
 
 The deadline to submit your project is Friday Feb. 8th at 11:59 pm EST.
