@@ -24,7 +24,7 @@ We recommend you to submit at least a preliminary version of the deliverable dur
 
 #### Homework
 
-- TODO
+- Interesting lecture: [What is a code review? by Michael Lynch](https://mtlynch.io/human-code-reviews-1/#what-is-a-code-review)
 
 ### Week 4 [Jan. 28 - Feb. 1]: Block 1 third week
 #### Wednesday, January 28th
