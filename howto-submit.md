@@ -37,11 +37,16 @@ You should ensure that your project is read-only by other groups using
 
 ## Running your code
 
-We will be running the code on our own test sets. It is your responsiblity to ensure that the code can be properly run based on the `eval.py` and `run_evaluation.sh` files that were provided to you. These can be found in the [ift6759/projects/](https://github.com/mila-udem/ift6759/tree/master/projects) folder.
+We will be running the code on our own test sets. It is your responsiblity to ensure that the code can be properly run based on the `eval.py` and `run_evaluation.sh` files that were provided to you. These can be found in the [ift6759/projects/](https://github.com/mila-udem/ift6759/tree/master/projects) folder on a per-project basis.
 
-We recommend you test your submissions prior to the deadline.
+We expect you to have completed the `eval.py` file relevant to your project and ensure that its outputs values are as expected.
 
-Keep in mind that we will be running your code, so be sure that it does not depend on local files or environment variables that we would otherwise not be able to access.
+We recommend you test your submissions prior to the deadline. Validate your methods with instructors prior to submission if necessary.
+
+Keep in mind that the instructors will be running your code, so be sure that it does not depend on local files or environment variables that instructors would otherwise not be able to access.
+
+To be clear, the code will be run by the instructors directly on the cluster **FROM YOUR SUBMISSION FOLDER ON HELIOS** using a test set that is not directly visible to you on the cluster. We will be using the `run_evaluation.sh` scripts on your submissions and expect them to work with no intervention on our end.
+
 
 ## Deadline
 
