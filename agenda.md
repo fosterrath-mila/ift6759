@@ -24,7 +24,8 @@ We recommend you to submit at least a preliminary version of the deliverable dur
 
 #### Homework
 
-- Interesting lecture: [What is a code review? by Michael Lynch](https://mtlynch.io/human-code-reviews-1/#what-is-a-code-review)
+- Even though what we ask of you in this class for code reviews is very lightweight and straight forward, make sure you understand [what code review is and why it is useful](https://en.wikipedia.org/wiki/Code_review).
+- Be aware of the [good practices to follow](https://mtlynch.io/human-code-reviews-1) while doing code review.
 
 ### Week 4 [Jan. 28 - Feb. 1]: Block 1 third week
 #### Wednesday, January 28th
