@@ -16,7 +16,7 @@ to a block at the latest on __Friday, February 8th at 11:59pm EST__.
 - Verify that you know [how to submit the deliverable](https://github.com/mila-udem/ift6759/blob/master/howto-submit.md) during the working session.
 We recommend you to submit at least a preliminary version of the deliverable during the working session. Also, test if other teams have reading permission for the peer code review.
 
-- You will receive an invitation to edit the peer code review document in Google Sheets. Each team has to do a peer code review of 2 other teams. Please use the following scores: 0 - the requirement is not satisfied, 1 - the requirement is satisfied, 0.5 - the requirement is partially satisfied.
+- Each team has to do a peer code review of 2 other teams. Please use the following scores: 0 - the requirement is not satisfied, 1 - the requirement is satisfied, 0.5 - the requirement is partially satisfied.
 
 #### Wednesday, February 6th
 
