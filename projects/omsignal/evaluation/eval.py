@@ -79,7 +79,7 @@ if __name__ == "__main__":
     y_pred = eval_model(dataset_file, model_filename)
 
     assert type(y_pred) is np.ndarray, "Return a numpy array of dim=1"
-    assert len(y_pred.shape) == 1, "Make sure ndim=1 for y_pred"
+    assert len(y_pred.shape) == 2, "Make sure ndim=1 for y_pred"
 
     results_fname = Path(results_dir) / (group_name + '_eval_pred.txt')
 
