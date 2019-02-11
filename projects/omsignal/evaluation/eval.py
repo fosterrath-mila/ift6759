@@ -84,5 +84,5 @@ if __name__ == "__main__":
     results_fname = Path(results_dir) / (group_name + '_eval_pred.txt')
 
     print('\nSaving results to ', results_fname.absolute())
-    write_memfile(results_fname, y_pred)
+    write_memfile(y_pred, results_fname)
     #########################################
