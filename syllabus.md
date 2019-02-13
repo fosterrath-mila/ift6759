@@ -43,5 +43,15 @@ A set of GPUs will be reserved for 8 hours, starting 30 minutes before the begin
 
 ### NDA
 The NDA can be found here ([french](https://github.com/mila-udem/ift6759/blob/master/nda/nda-francais.pdf), [english](https://github.com/mila-udem/ift6759/blob/master/nda/nda-english.pdf)).
-The document must be signed and returned before January 16th. A paper version can be given to the TAs or a scanned version can be sent to <ift6759@mila.quebec>. 
+The document must be signed and returned before January 16th. A paper version can be given to the TAs or a scanned version can be sent to <ift6759@mila.quebec>.
+
+### Policy on Contribution
+
+Working in a team is a fundamental part of the professional life of data scientists. By working in a team, you can achieve greater things by contributing to a common project, getting answers to hard questions, being able to brainstorm on new ideas, etc. However, it is not always easy to be part of a team because we do not choose our colleagues; we may have different points of view, different techniques and different skills. Nevertheless, when people in a team are motivated to work towards a common goal, there are different ways to organize the work so that everyone can contribute. Doing so requires a set of interpersonal skills that are not trivial and that you will develop throughout your career.
+
+That being said, you can feel that it is not fair that one member of your team is not contributing as much as you are and nevertheless, the person will receive the same score as you. This is a natural feeling, but you should try to carefully evaluate the contribution of each member. Is it the number of hours spent on the project? Is it the number of lines of codes? Is it the number of theoretical questions solved by reading scientific papers? In fact, quantifying the contribution of a person is really hard because it is not a single value. As everything in real-life, it is multidimensional and probably more qualitative than quantitative.
+
+Now, as we will not tolerate any plagiarism, we will not tolerate that a student is relying solely on others to complete the course. If you think that someone in your team is not contributing at all, start by having a team meeting to discuss with the person on how she/he can contribute. Use a positive and respectful attitude and try to help the person find a way to contribute. As an example, if the person is lacking programming skills, try to organize programming sessions in pairs where one person is programming and the other one is verifying the code, asking questions and making recommendations. Also, remember that everyone must program and so, there should be a turnaround.
+
+If you think the person is not contributing on purpose, send an email to the TAs responsible for your project. After receiving the email, we will schedule a meeting with all team members so that everyone can discuss their point of view.  Everyone should be able to justify their position with some relevant material (code, report, emails, etc.). Finally, the TAs and the professors will take actions to resolve the problem.
 
