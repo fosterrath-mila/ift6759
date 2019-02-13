@@ -1,15 +1,38 @@
 ## Deadlines
 
-- Each team needs to do the [peer code review](https://github.com/mila-udem/ift6759/blob/master/howto-codereview) before __Monday, February 11th at 11:59pm EST__.
 
-- Each team needs to provide the [deliverable](https://github.com/mila-udem/ift6759/blob/master/howto-submit.md) (report + code + best model) corresponding
-to a block at the latest on __Friday, February 8th at 11:59pm EST__.
+
+- ~~Each team needs to do the [peer code review](https://github.com/mila-udem/ift6759/blob/master/howto-codereview) before __Monday, February 11th at 11:59pm EST__.~~
+
+- ~~Each team needs to provide the [deliverable](https://github.com/mila-udem/ift6759/blob/master/howto-submit.md) (report + code + best model) corresponding
+to a block at the latest on __Friday, February 8th at 11:59pm EST__.~~
 
 - ~~The NDA must be signed and returned before January 16th. See at the end of the [Syllabus](https://github.com/mila-udem/ift6759/blob/master/syllabus.md) for further details.~~
 
 - ~~No deliverable for now, you should complete all the [readings and tutorials](https://github.com/mila-udem/ift6759/blob/master/tutorials/python-numpy-pytorch.md) by __Wednesday January 16th__.~~ 
 
 ## Agenda
+
+### Week 6 [Feb. 11 - Feb. 15] Block 2 First week
+
+#### Friday, February 15th
+- [Block 2 Common Presentations](https://github.com/mila-udem/ift6759/blob/master/tutorials/common-week2.pdf) will be presented in the __TBD__.
+
+- [Horoma block 1 description](https://github.com/mila-udem/ift6759/blob/master/projects/horoma/slides/horoma-block2.pdf) will be presented in the __TBD__ after the common presentations.
+
+- [Humanware block 1 description](https://github.com/mila-udem/ift6759/blob/master/projects/humanware/slides/humanware-block2.pdf) will be presented in the __TBD__ after the common presentations.
+
+- [OMsignal block 1 description](https://github.com/mila-udem/ift6759/blob/master/projects/omsignal/slides/omsignal-block2.pdf) will be presented in the __TBD__ after the common presentations.
+
+#### Wednesday, February 13th
+- No course because of the snowstorm.
+
+- From now on, every Wednesday, one person from each team will meet a TA for reporting progress.
+
+- The [model performance evaluation on blind test set](https://github.com/mila-udem/ift6759/blob/master/model-evaluation-block1.md) is available.
+
+- New [team assignment for block 2](https://github.com/mila-udem/ift6759/blob/master/teams.md).
+
 
 ### Week 5 [Feb. 4 - Feb. 8] Block 1 final week
 #### Friday, February 8th
