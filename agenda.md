@@ -24,6 +24,8 @@ to a block at the latest on __Friday, February 8th at 11:59pm EST__.~~
 #### Wednesday, February 13th
 - From now on, every Wednesday, one person from each team will meet a TA for reporting progress.
 
+- Please read the [policy on contribution](https://github.com/mila-iqia/ift6759/blob/master/syllabus.md#policy-on-contribution) of the course.
+
 - No course because of the snowstorm.
 
 ### Week 5 [Feb. 4 - Feb. 8] Block 1 final week
