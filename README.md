@@ -7,7 +7,6 @@ IFT6759 is a course about implementing deep learning theory to real-world indust
 - The [How-to submit a project](https://github.com/mila-udem/ift6759/blob/master/howto-submit.md).
 - The [How-to submit a code review](https://github.com/mila-udem/ift6759/blob/master/howto-codereview.md).
 - The [frequently asked questions (FAQ)](https://github.com/mila-udem/ift6759/blob/master/faq.md).
-- The [team assignations of block 2](https://github.com/mila-udem/ift6759/blob/master/teams.md).
 - How to run the [containers](https://github.com/mila-udem/ift6759/tree/master/container).
 
 
