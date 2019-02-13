@@ -14,7 +14,6 @@ to a block at the latest on __Friday, February 8th at 11:59pm EST__.~~
 ### Week 6 [Feb. 11 - Feb. 15] Block 2 First week
 
 #### Friday, February 15th
-- [Block 2 Common Presentations](https://github.com/mila-udem/ift6759/blob/master/tutorials/common-week2.pdf) will be presented in the __TBD__.
 
 - [Horoma block 2 description](https://github.com/mila-udem/ift6759/blob/master/projects/horoma/slides/horoma-block2.pdf) will be presented in the __TBD__ after the common presentations.
 
