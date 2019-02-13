@@ -16,11 +16,11 @@ to a block at the latest on __Friday, February 8th at 11:59pm EST__.~~
 #### Friday, February 15th
 - [Block 2 Common Presentations](https://github.com/mila-udem/ift6759/blob/master/tutorials/common-week2.pdf) will be presented in the __TBD__.
 
-- [Horoma block 1 description](https://github.com/mila-udem/ift6759/blob/master/projects/horoma/slides/horoma-block2.pdf) will be presented in the __TBD__ after the common presentations.
+- [Horoma block 2 description](https://github.com/mila-udem/ift6759/blob/master/projects/horoma/slides/horoma-block2.pdf) will be presented in the __TBD__ after the common presentations.
 
-- [Humanware block 1 description](https://github.com/mila-udem/ift6759/blob/master/projects/humanware/slides/humanware-block2.pdf) will be presented in the __TBD__ after the common presentations.
+- [Humanware block 2 description](https://github.com/mila-udem/ift6759/blob/master/projects/humanware/slides/humanware-block2.pdf) will be presented in the __TBD__ after the common presentations.
 
-- [OMsignal block 1 description](https://github.com/mila-udem/ift6759/blob/master/projects/omsignal/slides/omsignal-block2.pdf) will be presented in the __TBD__ after the common presentations.
+- [OMsignal block 2 description](https://github.com/mila-udem/ift6759/blob/master/projects/omsignal/slides/omsignal-block2.pdf) will be presented in the __TBD__ after the common presentations.
 
 #### Wednesday, February 13th
 - No course because of the snowstorm.
