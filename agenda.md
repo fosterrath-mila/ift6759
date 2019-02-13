@@ -29,10 +29,6 @@ to a block at the latest on __Friday, February 8th at 11:59pm EST__.~~
 
 - From now on, every Wednesday, one person from each team will meet a TA for reporting progress.
 
-- The [model performance evaluation on blind test set](https://github.com/mila-udem/ift6759/blob/master/model-evaluation-block1.md) is available.
-
-- New [team assignment for block 2](https://github.com/mila-udem/ift6759/blob/master/teams.md).
-
 
 ### Week 5 [Feb. 4 - Feb. 8] Block 1 final week
 #### Friday, February 8th
