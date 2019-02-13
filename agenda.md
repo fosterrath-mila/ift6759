@@ -26,6 +26,8 @@ to a block at the latest on __Friday, February 8th at 11:59pm EST__.~~
 
 - Please read the [policy on contribution](https://github.com/mila-iqia/ift6759/blob/master/syllabus.md#policy-on-contribution) of the course.
 
+- [New team assignment for block 2](https://github.com/mila-iqia/ift6759/blob/master/teams.md#block-2-teams) is ready.
+
 - No course because of the snowstorm.
 
 ### Week 5 [Feb. 4 - Feb. 8] Block 1 final week
