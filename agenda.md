@@ -27,7 +27,7 @@ to a block at the latest on __Friday, February 8th at 11:59pm EST__.~~
 
 #### Wednesday, February 13th
 
-- From now on, every Wednesday, one person from each team will meet a TA for reporting progress. Please refer to Week 6 Common Presentations (slide 2-3 for more details).
+- From now on, every Wednesday, one person from each team will meet a TA for reporting progress. Please refer to [Week 6 Common Presentations](https://github.com/mila-udem/ift6759/blob/master/tutorials/common-week6.pdf) (slide 2-3 for more details).
 
 - [New team assignment for block 2](https://github.com/mila-iqia/ift6759/blob/master/teams.md#block-2-teams) is available.
 
