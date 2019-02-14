@@ -23,6 +23,8 @@ to a block at the latest on __Friday, February 8th at 11:59pm EST__.~~
 
 - [OMsignal block 2 description](https://github.com/mila-udem/ift6759/blob/master/projects/omsignal/slides/omsignal-block2.pdf) will be presented in the __TBD__ after the common presentations.
 
+- [OMsignal block 2 syllabus](https://github.com/mila-udem/ift6759/blob/master/projects/omsignal/slides/omsignal-syllabus-block2.pdf).
+
 #### Wednesday, February 13th
 - From now on, every Wednesday, one person from each team will meet a TA for reporting progress.
 
