@@ -15,13 +15,13 @@ to a block at the latest on __Friday, February 8th at 11:59pm EST__.~~
 
 #### Friday, February 15th
 
-- [Week 6 Common Presentations](https://github.com/mila-udem/ift6759/blob/master/tutorials/common-week6.pdf) will be presented in the __TBD__.
+- [Week 6 Common Presentations](https://github.com/mila-udem/ift6759/blob/master/tutorials/common-week6.pdf) will be presented in the __Mila auditorium at 14h30__.
 
-- [Horoma block 2 description](https://github.com/mila-udem/ift6759/blob/master/projects/horoma/slides/horoma-block2.pdf) will be presented in the __TBD__ after the common presentations.
+- [Horoma block 2 description](https://github.com/mila-udem/ift6759/blob/master/projects/horoma/slides/horoma-block2.pdf) will be presented in the __tech transfer team space__ after the common presentations.
 
-- [Humanware block 2 description](https://github.com/mila-udem/ift6759/blob/master/projects/humanware/slides/humanware-block2.pdf) will be presented in the __TBD__ after the common presentations.
+- [Humanware block 2 description](https://github.com/mila-udem/ift6759/blob/master/projects/humanware/slides/humanware-block2.pdf) will be presented in the __Mila agora__ after the common presentations.
 
-- [OMsignal block 2 description](https://github.com/mila-udem/ift6759/blob/master/projects/omsignal/slides/omsignal-block2.pdf) will be presented in the __TBD__ after the common presentations.
+- [OMsignal block 2 description](https://github.com/mila-udem/ift6759/blob/master/projects/omsignal/slides/omsignal-block2.pdf) will be presented in the __Mila auditorium__ after the common presentations.
 
 - [OMsignal block 2 syllabus](https://github.com/mila-udem/ift6759/blob/master/projects/omsignal/slides/omsignal-syllabus-block2.pdf).
 
