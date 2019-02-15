@@ -9,7 +9,7 @@ b1phot3 | 54.37%
 b1phot4 | 50.50%
 b1phot5 | 57.86%
 
-_Note: All results are statically significant to each other._
+_Note: The differances between all results are statically significant to each other._
 
 
 ## Humanware
