@@ -13,7 +13,7 @@ Jonathan Guymont | user23 | b2phot2
 David Abraham | user13 | b2phot3
 Ishaan Kumar | user20 | b2phot3
 Alejandra Jimenez Nieto | user5 | b2phot3
-Alice Desrochers | user7 | b2phot4
+Alice Desrochers* | user7 | b2phot4
 Emilio Botero | user14 | b2phot4
 Lawrence Abdulnour | user53 | b2phot4
 Badreddine Sayah | user9 | b2phot5
