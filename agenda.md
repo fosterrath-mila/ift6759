@@ -11,11 +11,19 @@ to a block at the latest on __Friday, February 8th at 11:59pm EST__.~~
 
 ## Agenda
 
+### Week 7 [Feb. 18 - Feb. 22] Block 3 First week
+
+#### Friday, February 22th
+
+#### Wednesday, February 20th
+
+- [Horoma dataset presentation](https://github.com/mila-udem/ift6759/blob/master/projects/horoma/slides/horoma-data-update.pdf) which describes an error in the split train/validation/test and how to correct it.  
+
 ### Week 6 [Feb. 11 - Feb. 15] Block 2 First week
 
 #### Friday, February 15th
 
-- [Week 6 Common Presentations](https://github.com/mila-udem/ift6759/blob/master/tutorials/common-week6.pdf) will be presented in the __Mila auditorium at 14h30__.
+- [Week 6 common presentations](https://github.com/mila-udem/ift6759/blob/master/tutorials/common-week6.pdf) will be presented in the __Mila auditorium at 14h30__.
 
 - [Horoma block 2 description](https://github.com/mila-udem/ift6759/blob/master/projects/horoma/slides/horoma-block2.pdf) will be presented in the __tech transfer team space__ after the common presentations.
 
