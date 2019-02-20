@@ -29,7 +29,7 @@ to a block at the latest on __Friday, February 8th at 11:59pm EST__.~~
 
 - [Humanware block 2 description](https://github.com/mila-udem/ift6759/blob/master/projects/humanware/slides/humanware-block2.pdf) will be presented in the __Mila agora__ after the common presentations.
 
-- [OMsignal block 2 description](https://github.com/mila-udem/ift6759/blob/master/projects/omsignal/slides/omsignal-block2.pdf) will be presented in the __Mila auditorium__ after the common presentations.
+- [OMsignal block 2 description](https://github.com/mila-udem/ift6759/blob/master/projects/omsignal/slides/omsignal-block2.pdf) will be presented in the __Mila auditorium__ after the common presentations. Then, the working session will be in room A.14 at 16h00.
 
 - [OMsignal block 2 syllabus](https://github.com/mila-udem/ift6759/blob/master/projects/omsignal/slides/omsignal-syllabus-block2.pdf).
 
