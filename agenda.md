@@ -15,6 +15,8 @@ to a block at the latest on __Friday, February 8th at 11:59pm EST__.~~
 
 #### Friday, February 22th
 
+- Working Session
+
 #### Wednesday, February 20th
 
 - [Horoma dataset presentation](https://github.com/mila-udem/ift6759/blob/master/projects/horoma/slides/horoma-data-update.pdf) which describes an error in the split train/validation/test and how to correct it.  
