@@ -1,5 +1,10 @@
 ## Deadlines
 
+- Each team needs to do the [peer code review](https://github.com/mila-udem/ift6759/blob/master/howto-codereview) before __Monday, March 18th at 11:59pm EST__.
+
+- Each team needs to provide the [deliverable](https://github.com/mila-udem/ift6759/blob/master/howto-submit.md) (report + code + best model) corresponding
+to a block at the latest on __Friday, March 15th at 11:59pm EST__.
+
 - ~~Each team needs to do the [peer code review](https://github.com/mila-udem/ift6759/blob/master/howto-codereview) before __Monday, February 11th at 11:59pm EST__.~~
 
 - ~~Each team needs to provide the [deliverable](https://github.com/mila-udem/ift6759/blob/master/howto-submit.md) (report + code + best model) corresponding
