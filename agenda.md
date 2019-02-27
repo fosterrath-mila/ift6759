@@ -11,7 +11,17 @@ to a block at the latest on __Friday, February 8th at 11:59pm EST__.~~
 
 ## Agenda
 
-### Week 7 [Feb. 18 - Feb. 22] Block 3 First week
+### Week 8 [Feb. 25 - Mar. 1] Block 2 Third week
+
+#### Friday, March 1st
+
+- Working Session
+
+#### Wednesday, February 27th
+
+- Working Session & [Team Meetings](https://github.com/mila-iqia/ift6759/blob/master/tutorials/common-week6.pdf)
+
+### Week 7 [Feb. 18 - Feb. 22] Block 2 Second week
 
 #### Friday, February 22th
 
@@ -47,7 +57,7 @@ to a block at the latest on __Friday, February 8th at 11:59pm EST__.~~
 
 - No course because of the snowstorm.
 
-### Week 5 [Feb. 4 - Feb. 8] Block 1 final week
+### Week 5 [Feb. 4 - Feb. 8] Block 1 Final week
 #### Friday, February 8th
 - Verify that you know [how to submit the deliverable](https://github.com/mila-udem/ift6759/blob/master/howto-submit.md) during the working session.
 We recommend you to submit at least a preliminary version of the deliverable during the working session. Also, test if other teams have reading permission for the peer code review.
@@ -63,7 +73,7 @@ We recommend you to submit at least a preliminary version of the deliverable dur
 - Even though what we ask of you in this class for code reviews is very lightweight and straight forward, make sure you understand [what code review is and why it is useful](https://en.wikipedia.org/wiki/Code_review).
 - Be aware of the [good practices to follow](https://mtlynch.io/human-code-reviews-1) while doing code review.
 
-### Week 4 [Jan. 28 - Feb. 1]: Block 1 third week
+### Week 4 [Jan. 28 - Feb. 1]: Block 1 Third week
 #### Wednesday, January 28th
 
 - The deadline for the first deliverable has been changed to __Friday, February 8th at 11:59pm__. See the [evaluation grid](https://github.com/mila-udem/ift6759/blob/master/evaluation-grid.pdf) for further information.
@@ -71,7 +81,7 @@ We recommend you to submit at least a preliminary version of the deliverable dur
 
 - The evaluation scripts are located in __ift6759/projects/<project_name>/evaluation/__. See [Block 1 Common Presentations](https://github.com/mila-udem/ift6759/blob/master/tutorials/common-week3.pdf) for further information.
 
-### Week 3 [Jan. 21 - 25]: Block 1 second week
+### Week 3 [Jan. 21 - 25]: Block 1 Second week
 #### Friday, January 25th
 
 - Working Session
@@ -82,7 +92,7 @@ We recommend you to submit at least a preliminary version of the deliverable dur
 
 - [Week 3 Common Presentations](https://github.com/mila-udem/ift6759/blob/master/tutorials/common-week3.pdf) will be presented in the __Mila auditorium at 15h30__.
 
-### Week 2 [Jan. 14 - 18]: Block 1 first week
+### Week 2 [Jan. 14 - 18]: Block 1 First week
 #### Friday, January 18th
 
 - Working Session
