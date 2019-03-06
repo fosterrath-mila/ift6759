@@ -6,10 +6,6 @@
 5. generate the pdf with the same filename as the original document (e.g. b1pomt5 - peer review evaluations),
 6. send the document to ift6759@mila.quebec with the filename as the object.
 
-## Deadline
-
-The deadline to submit your project is __Monday, February 11th at 11:59pm EST__.
-
 ## References
 
 - Even though what we ask of you in this class for code reviews is very lightweight and straight forward, make sure you understand [what code review is and why it is useful](https://en.wikipedia.org/wiki/Code_review).
