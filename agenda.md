@@ -16,6 +16,20 @@ to a block at the latest on __Friday, February 8th at 11:59pm EST__.~~
 
 ## Agenda
 
+### Week 10 [Mar. 11 - Mar. 15] Block 2 Final week
+
+#### Friday, March 1st
+
+- Working Session
+
+- Code submission deadline __at 11:59pm EST__.
+
+#### Wednesday, February 27th
+
+- Working Session & [Team Meetings](https://github.com/mila-iqia/ift6759/blob/master/tutorials/common-week6.pdf)
+
+### Week 9 [Mar. 4 - Mar. 8] Spring break
+
 ### Week 8 [Feb. 25 - Mar. 1] Block 2 Third week
 
 #### Friday, March 1st
