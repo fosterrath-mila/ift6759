@@ -1,6 +1,6 @@
 # Block 1 Performances
 ## Horoma
-The baseline on the new dataset for block 1 was run with the following command. `python -u baseline.py data -k 20 -p`.
+The baseline on the new dataset for block 1 was run with the following command. `python -u baseline.py data -k 50 -p`.
 
 Valid Accuracy | Test Accuracy | Valid F1 | Test F1
 --- | --- | --- | ---
