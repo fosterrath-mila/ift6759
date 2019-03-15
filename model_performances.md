@@ -1,5 +1,13 @@
 # Block 1 Performances
 ## Horoma
+The baseline on the new dataset for block 1 was run with the following command. `python -u baseline.py data -k 20 -p`.
+
+Valid Accuracy | Test Accuracy | Valid F1 | Test F1
+--- | --- | --- | ---
+36.91% | 28.31% | 33.89% | 25.35
+
+Due to the issue with the dataset, the following scores table is not accurate anymore.
+
 Team | Test Accuracy
 --- | ---
 baseline | 46.91%
@@ -9,7 +17,7 @@ b1phot3 | 54.37%
 b1phot4 | 50.50%
 b1phot5 | 57.86%
 
-_Note: The differences between all results are statiscally significant to each other._
+_Note: The differences between all results are statistically significant to each other._
 
 
 ## Humanware
