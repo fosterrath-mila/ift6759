@@ -20,9 +20,7 @@ to a block at the latest on __Friday, February 8th at 11:59pm EST__.~~
 
 #### Friday, March 1st
 
-- Working Session
-
-- Code submission deadline __at 11:59pm EST__.
+- Code submission deadline __at 11:59pm EST__. [Reminder on how to submit the deliverable](https://github.com/mila-udem/ift6759/blob/master/howto-submit.md)
 
 #### Wednesday, February 27th
 
