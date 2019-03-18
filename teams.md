@@ -39,7 +39,7 @@ Joseph Viviano | user25 | b2phut4
 Michael Benitah | user33 | b2phut4
 Vincent Morissette-Thomas | user48 | b2phut4
 Hugo Lafortune | user31 | b2phut5
-Bernard Dadjio | user12 | b2phut5
+Bernard Dadjio* | user12 | b2phut5
 Alexandre Marcil | user6 | b2phut5
 
 
