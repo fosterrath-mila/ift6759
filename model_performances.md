@@ -35,10 +35,10 @@ b1phut5 | 96.6% | Yes
 Team | PR_Mean | RT_Mean | RR_Std | User_ID | Statistically equivalent to baseline
 --- | --- | --- | --- | --- | ---
 baseline | 65.99% | 76.33% | 18.25% | 27.74% |
-b1pomt1 | 1.34% |11.02% | 4.17% | 36.77% | - - - 1
-b1pomt2 | 91.09% |87.34% | 65.33% | 80.64% | 2 2 2 2
-b1pomt3 | 3.60% |39.36% | 16.68% | 4.51%|- - 1 -
-b1pomt4 | 55.82% | 76.21% | 23.79% | 36.13% | - 1 2 1
+b1pomt1 | 6.62% |8.85% | 6.90% | 49.03% | - - - 2
+b1pomt2 | 93.25% |87.19% | 83.05% | 80.64% | 2 2 2 2
+b1pomt3 | 11.70% |51.93% | 21.68% | 10.97%|- - 2 -
+b1pomt4 | 57.86% | 76.32% | 29.62% | 47.74% | - 1 2 2
 b1phom5 | 16.21% | 58.06% | 74.67% | 53.55% | - - 2 2
 
 _Note: `-` = inferior to the baseline, `1` = equivalent to the baseline, `2` = superior to the baseline_
