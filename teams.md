@@ -1,3 +1,69 @@
+# Block 3 Teams
+## Project Horoma
+Name | Helios User | Team Name
+--- | --- | ---
+Marc Demers | user54 | b3phot1
+Yasmine Dumouchel | user56 | b3phot1
+Hugo Lafortune | user31 | b3phot1
+Dridi Houssem Eddine Dridi | user18 | b3phot1
+Ramón Emiliani | user41 | b3phot2
+Vicki Anand | user46 | b3phot2
+Joseph Viviano | user25 | b3phot2
+Rémi Lussier St-Laurent | user52 | b3phot2
+Yunhe Li | user51 | b3phot3
+Akila Jeeson Daniel | user4 | b3phot3
+Abdulmonhem Al Khalil | user1 | b3phot3
+Philippe Helal | user38 | b3phot4
+Jean-Philippe Letendre | user21 | b3phot4
+Isaac Ahouma | user19 | b3phot4
+Benjamin Benoit Rosa | user11 | b3phot5
+Timothy Nest | user45 | b3phot5
+Swechha Swechha | user44 | b3phot5
+
+
+## Project Humanware
+Name | Helios User | Team Name
+--- | --- | ---
+Marzieh Mehdizadeh | user32 | b3phut1
+Yue Guo | user50 | b3phut1
+Ishaan Kumar | user20 | b3phut1
+Saber Benchalel | user42 | b3phut1
+Fanny Salvail-Bérard | user17 | b3phut2
+Étienne Girard-Proulx | user16 | b3phut2
+David Abraham | user13 | b3phut2
+Emilio Botero | user14 | b3phut2
+Éric Girard | user15 | b3phut3
+Jonathan Rahim Bhimani-Burrows | user24 | b3phut3
+Nicolas Laliberté | user36 | b3phut3
+Jimmy Leroux | user22 | b3phut3
+Laura Sánchez Fernández | user29 | b3phut4
+Badreddine Sayah | user9 | b3phut4
+Arlie Coles | user8 | b3phut4
+Sahar Bahrami | user43 | b3phut4
+
+
+## Project OMsignal
+Name | Helios User | Team Name
+--- | --- | ---
+Alexandre Marcil | user6 | b3pomt1
+Philippe Lelièvre | user39 | b3pomt1
+Lawrence Abdulnour | user53 | b3pomt1
+Basile Dura | user10 | b3pomt1
+Vincent Morissette-Thomas | user48 | b3pomt2
+Louis-Francois Preville-Ratelle | user30 | b3pomt2
+Alejandra Jimenez Nieto | user5 | b3pomt2
+Philippe Marcotte | user40 | b3pomt2
+Michael Benitah | user33 | b3pomt3
+Aditya Joshi | user3 | b3pomt3
+Jonathan Guymont | user23 | b3pomt3
+Julien Horwood | user27 | b3pomt3
+Julien Allard | user26 | b3pomt4
+Vilayphone Vilaysouk | user47 | b3pomt4
+Yishi Xu | user49 | b3pomt4
+Khalil Slimi | user28 | b3pomt4
+
+
+
 # Block 2 Teams
 ## Project Horoma
 Name | Helios User | Team Name
@@ -63,6 +129,7 @@ Fanny Salvail-Bérard | user17 | b2pomt4
 Ramón Emiliani | user41 | b2pomt5
 Marc Demers | user54 | b2pomt5
 Marzieh Mehdizadeh | user32 | b2pomt5
+
 
 
 # Block 1 Teams
