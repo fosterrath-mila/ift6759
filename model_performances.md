@@ -1,3 +1,40 @@
+# Block 2 Performances
+## Horoma
+Valid Accuracy | Test Accuracy | Test F1
+--- | --- | --- 
+baseline | 29.12% | 28.02%
+b2phot1 | 40.36% | 35.55%
+b2phot2 | 33.53% | 24.86%
+b2phot3 | 27.31% | 19.61%
+b2phot4 | 32.13% | 29.08%
+b2phot5 | 31.12% | 21.38%
+
+_Note: The differences between all results are statistically significant to each other._
+
+## Humanware
+Team | Test Accuracy | Statistically equivalent to baseline
+--- | --- | ---
+baseline | 92.3% | |
+b2phut1 | 90.6% | - |
+b2phut2 | 94.1% | 2 |
+b2phut3 | 94.1% | 2 |
+b2phut4 | 93.9% | 2 |
+b2phut5 | 94.8% | 2 |
+
+
+## OMSignal
+Team | PR_Mean | RT_Mean | RR_Std | User_ID | Statistically equivalent to baseline
+--- | --- | --- | --- | --- | ---
+baseline | 65.99% | 81.00% | 67.34% | 51.31% |
+b2pomt1 | 79.72% |81.18% | 25.77% | 13.55% | 2 1 - -
+b2pomt2 | 65.99% |74.89% | 20.46% | 49.03% | 1 - - 1
+b2pomt3 | 69.43% |83.90% | 73.14% | 80.64%| 2 2 2 2
+b2pomt4 | 93.25% | 87.19% | 83.05% | 74.84% | 2 1 2 2
+b2pomt5 | 75.22% | 79.12% | 3.82% | 30.97% | 2 2 - -
+
+_Note: `-` = inferior to the baseline, `1` = equivalent to the baseline, `2` = superior to the baseline_
+
+
 # Block 1 Performances
 ## Horoma
 The baseline on the new dataset for block 1 was run with the following command. `python -u baseline.py data -k 50 -p`.
