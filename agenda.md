@@ -1,9 +1,12 @@
 ## Deadlines
 
-- Each team needs to do the [peer code review](https://github.com/mila-udem/ift6759/blob/master/howto-codereview) before __Monday, March 18th at 11:59pm EST__.
-
 - Each team needs to provide the [deliverable](https://github.com/mila-udem/ift6759/blob/master/howto-submit.md) (report + code + best model) corresponding
-to a block at the latest on __Friday, March 15th at 11:59pm EST__.
+to a block at the latest on __Friday, April 12th at 11:59pm EST__.
+
+- ~~Each team needs to do the [peer code review](https://github.com/mila-udem/ift6759/blob/master/howto-codereview) before __Monday, March 18th at 11:59pm EST__.~~
+
+- ~~Each team needs to provide the [deliverable](https://github.com/mila-udem/ift6759/blob/master/howto-submit.md) (report + code + best model) corresponding
+to a block at the latest on __Friday, March 15th at 11:59pm EST__.~~
 
 - ~~Each team needs to do the [peer code review](https://github.com/mila-udem/ift6759/blob/master/howto-codereview) before __Monday, February 11th at 11:59pm EST__.~~
 
@@ -15,6 +18,25 @@ to a block at the latest on __Friday, February 8th at 11:59pm EST__.~~
 - ~~No deliverable for now, you should complete all the [readings and tutorials](https://github.com/mila-udem/ift6759/blob/master/tutorials/python-numpy-pytorch.md) by __Wednesday January 16th__.~~
 
 ## Agenda
+
+### Week 11 [Mar. 18 - Mar. 22] Block 3 First week
+
+#### Friday, March 22th
+
+
+#### Wednesday, March 20th
+
+- [Week 11 common presentations](https://github.com/mila-udem/ift6759/blob/master/tutorials/common-week11.pdf) will be presented in the __Mila auditorium at 15h30__.
+
+- [Horoma block 3 description](https://github.com/mila-udem/ift6759/blob/master/projects/horoma/slides/horoma-block3.pdf) will be presented in the __Mila auditorium__ after the common presentations.
+
+- [Humanware block 3 description](https://github.com/mila-udem/ift6759/blob/master/projects/humanware/slides/humanware-block3.pdf) will be presented in the __Mila agora__ after the common presentations.
+
+- [OMsignal block 3 description](https://github.com/mila-udem/ift6759/blob/master/projects/omsignal/slides/omsignal-block3.pdf) will be presented in the __tech transfer team space__ after the common presentations. Then, the working session will be in room D.07 at 16h30.
+
+- [OMsignal block 3 syllabus](https://github.com/mila-udem/ift6759/blob/master/projects/omsignal/slides/omsignal-syllabus-block3.pdf).
+
+- [New team assignment for block 3](https://github.com/mila-iqia/ift6759/blob/master/teams.md#block-3-teams) is available.
 
 ### Week 10 [Mar. 11 - Mar. 15] Block 2 Final week
 
