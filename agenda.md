@@ -18,11 +18,11 @@ to a block at the latest on __Friday, February 8th at 11:59pm EST__.~~
 
 ### Week 10 [Mar. 11 - Mar. 15] Block 2 Final week
 
-#### Friday, March 1st
+#### Friday, March 15st
 
 - Code submission deadline __at 11:59pm EST__. [Reminder on how to submit the deliverable](https://github.com/mila-udem/ift6759/blob/master/howto-submit.md)
 
-#### Wednesday, February 27th
+#### Wednesday, March 13th
 
 - Working Session & [Team Meetings](https://github.com/mila-iqia/ift6759/blob/master/tutorials/common-week6.pdf)
 
