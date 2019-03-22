@@ -23,7 +23,9 @@ to a block at the latest on __Friday, February 8th at 11:59pm EST__.~~
 
 #### Friday, March 22th
 
-- Working session for Horoma and OMSignal. Presentation for Humwanre in the Agora.
+- (Humanware) Presentation in the Agora
+
+- (Horoma & OMSignal) Working session 
 
 #### Wednesday, March 20th
 
