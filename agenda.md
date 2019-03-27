@@ -19,6 +19,17 @@ to a block at the latest on __Friday, February 8th at 11:59pm EST__.~~
 
 ## Agenda
 
+### Week 12 [Mar. 25 - Mar. 29] Block 3 Second week
+
+#### Wednesday, March 27th
+
+- Announcement
+
+- [Team meetings](https://github.com/mila-iqia/ift6759/blob/master/tutorials/common-week11.pdf)
+  - Horoma C.01
+  - Humanware C.03
+  - OMsignal C.06
+
 ### Week 11 [Mar. 18 - Mar. 22] Block 3 First week
 
 #### Friday, March 22th
