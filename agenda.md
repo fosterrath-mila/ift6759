@@ -1,17 +1,18 @@
 ## Deadlines
 
-- Each team needs to provide the [deliverable](https://github.com/mila-udem/ift6759/blob/master/howto-submit.md) (report + code + best model) corresponding
-to a block at the latest on __Friday, April 12th at 11:59pm EST__.
+- Final presentation on __Wednesday, April 24th from 3:30pm to 5:30pm EST__.
+
+- Each team needs to do the [peer code review](https://github.com/mila-udem/ift6759/blob/master/howto-codereview) before __Wednesday, April 17th at 11:59pm EST__.
+
+- Each team needs to provide the [deliverable](https://github.com/mila-udem/ift6759/blob/master/howto-submit.md) (report + code + best model) corresponding to a block at the latest on __Sunday, April 14th at 11:59pm EST__.
 
 - ~~Each team needs to do the [peer code review](https://github.com/mila-udem/ift6759/blob/master/howto-codereview) before __Monday, March 18th at 11:59pm EST__.~~
 
-- ~~Each team needs to provide the [deliverable](https://github.com/mila-udem/ift6759/blob/master/howto-submit.md) (report + code + best model) corresponding
-to a block at the latest on __Friday, March 15th at 11:59pm EST__.~~
+- ~~Each team needs to provide the [deliverable](https://github.com/mila-udem/ift6759/blob/master/howto-submit.md) (report + code + best model) corresponding to a block at the latest on __Friday, March 15th at 11:59pm EST__.~~
 
 - ~~Each team needs to do the [peer code review](https://github.com/mila-udem/ift6759/blob/master/howto-codereview) before __Monday, February 11th at 11:59pm EST__.~~
 
-- ~~Each team needs to provide the [deliverable](https://github.com/mila-udem/ift6759/blob/master/howto-submit.md) (report + code + best model) corresponding
-to a block at the latest on __Friday, February 8th at 11:59pm EST__.~~
+- ~~Each team needs to provide the [deliverable](https://github.com/mila-udem/ift6759/blob/master/howto-submit.md) (report + code + best model) corresponding to a block at the latest on __Friday, February 8th at 11:59pm EST__.~~
 
 - ~~The NDA must be signed and returned before January 16th. See at the end of the [Syllabus](https://github.com/mila-udem/ift6759/blob/master/syllabus.md) for further details.~~
 
