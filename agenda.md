@@ -22,6 +22,10 @@
 
 ### Week 12 [Mar. 25 - Mar. 29] Block 3 Second week
 
+#### Friday, March 29th
+
+- Working Session
+
 #### Wednesday, March 27th
 
 - Announcement
