@@ -20,6 +20,15 @@
 
 ## Agenda
 
+### Week 13 [Apr. 1 - Apr. 5] Block 3 Third week
+
+#### Wednesday, April 3rd
+
+- [Team meetings](https://github.com/mila-iqia/ift6759/blob/master/tutorials/common-week11.pdf)
+  - Horoma C.01
+  - Humanware C.03
+  - OMsignal C.06
+
 ### Week 12 [Mar. 25 - Mar. 29] Block 3 Second week
 
 #### Friday, March 29th
