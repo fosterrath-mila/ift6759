@@ -22,6 +22,10 @@
 
 ### Week 13 [Apr. 1 - Apr. 5] Block 3 Third week
 
+#### Friday, April 5th
+
+- Working Session
+
 #### Wednesday, April 3rd
 
 - [Team meetings](https://github.com/mila-iqia/ift6759/blob/master/tutorials/common-week11.pdf)
