@@ -22,7 +22,7 @@ Four exported variables will be made available to you:
 
 * `DATA_DIR` - It will contain the path to the `test` folder. The test set will contain all images as well as a file, `instances_test.json`, structured identically to the `instances_train.json` and `instances_valid.json`.
 
-You will have a sample test set made available to test your submissions.
+You will have a sample test set made available to test your submissions. This sample set is located at `/rap/jvb-000-aa/COURS2019/etudiants/data/humanware/Humanware_v1_1553272293/test_sample`. Note that it contains only 100 examples, and that the official test set will not be in the same location, but will have the same structure.
 
 ## Suggested steps to ensure a proper submission
 
