@@ -14,8 +14,10 @@ export RESULTS_DIR='/rap/jvb-000-aa/COURS2019/etudiants/ift6759/projects/humanwa
 export DATA_DIR='/rap/jvb-000-aa/COURS2019/etudiants/Humwanware_v1_15535195/test'
 
 # Your project will be copied to the evaluator's home to ensure proper write permission, so you don't have to worry about those
-cp $PROJECT_PATH ~/
+cp -r $PROJECT_PATH $HOME
 
 
 # The code will be launched using s_exec, meaning that every subsequent script can be assumed to already be inside a singularity container.
-s_exec ~$TEAM_NAME/code/evaluation/bloc3_evaluation.sh
+
+chmod +x $HOME/$TEAM_NAME/code/evaluation/bloc3_evaluation.sh # Make code executable
+s_exec $HOME/$TEAM_NAME/code/evaluation/bloc3_evaluation.sh
