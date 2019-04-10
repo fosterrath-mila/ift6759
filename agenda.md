@@ -34,6 +34,8 @@
 
 - Announcements
 
+- [Guidelines](https://github.com/mila-iqia/ift6759/tree/master/guidelines)
+
 - [Team meetings](https://github.com/mila-iqia/ift6759/blob/master/tutorials/common-week11.pdf)
   - Horoma C.01
   - Humanware C.03
