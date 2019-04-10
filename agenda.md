@@ -20,6 +20,25 @@
 
 ## Agenda
 
+### Week 14 [Apr. 8 - Apr. 12] Block 3 FINAL WEEK!
+
+#### Friday, April 12th
+
+- Last working Session of the semester!
+  - Verify your submission process
+  - Ask questions and help on
+    - Your report
+    - Your final presentation
+
+#### Wednesday, April 10th
+
+- Announcements
+
+- [Team meetings](https://github.com/mila-iqia/ift6759/blob/master/tutorials/common-week11.pdf)
+  - Horoma C.01
+  - Humanware C.03
+  - OMsignal C.06
+
 ### Week 13 [Apr. 1 - Apr. 5] Block 3 Third week
 
 #### Friday, April 5th
