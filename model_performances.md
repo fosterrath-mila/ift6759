@@ -1,6 +1,44 @@
+# Block 3 Performances
+## Horoma
+Team | Test Accuracy | Test F1
+--- | --- | --- 
+baseline | 40.36% | 35.55%
+b3phot1 | 73.69% | 73.20%
+b3phot2 | 64.06% | 64.31%
+b3phot3 | 59.44% | 59.82%
+b3phot4 | 62.25% | 59.38%
+b3phot5 | 55.02% | 53.75%
+b3phot6 | 33.33% | 32.57%
+
+_Note: The differences between all results are statistically significant to each other._
+
+
+## Humanware
+Team | Test Accuracy | Statistically equivalent to baseline
+--- | --- | ---
+baseline | 57.50% | -
+b3phut1 | 67.60% | 2
+b3phut2 | 68.40% | 2
+b3phut3 | 68.05% | 2
+b3phut4 | 58.50% | 1
+
+
+## OMSignal
+Team | PR_Mean | RT_Mean | RR_Std | User_ID | Statistically equivalent to baseline
+--- | --- | --- | --- | --- | ---
+baseline | 81.84% | 83.94% | 82.88% | 74.84% |
+b3pomt1 | 90.26% |87.23% | 89.75% | 71.61% | 2 2 2 1
+b3pomt2 | 03.71% |07.31% | 00.00% | 00.65% | - - - -
+b3pomt3 | 93.25% |87.19% | 83.05% | 88.39%| 2 2 1 2
+b3pomt4 | 88.67% | 85.45% | 71.93% | 80.65% | 2 1 - 1
+
+_Note: `-` = inferior to the baseline, `1` = equivalent to the baseline, `2` = superior to the baseline_
+
+
+
 # Block 2 Performances
 ## Horoma
-Valid Accuracy | Test Accuracy | Test F1
+Team | Test Accuracy | Test F1
 --- | --- | --- 
 baseline | 29.12% | 28.02%
 b2phot1 | 40.36% | 35.55%
@@ -33,6 +71,7 @@ b2pomt4 | 93.25% | 87.19% | 83.05% | 74.84% | 2 1 2 2
 b2pomt5 | 75.22% | 79.12% | 3.82% | 30.97% | 2 2 - -
 
 _Note: `-` = inferior to the baseline, `1` = equivalent to the baseline, `2` = superior to the baseline_
+
 
 
 # Block 1 Performances
