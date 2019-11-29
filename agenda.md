@@ -10,7 +10,7 @@
 - [Tensorflow 2.0 tutorial](add_link_to_slides_here)
 
 #### Wednesday, January 15th
-- [Git + Github tutorial](add_link_to_slides_here)
+- [Git + Github tutorial](https://github.com/mila-udem/ift6759/blob/master/tutorials/git-tutorial.pdf)
 
 #### Homework
 - ...
