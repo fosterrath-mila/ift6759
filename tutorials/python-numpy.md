@@ -16,11 +16,6 @@
 
 [Numpy tutorial](http://www.labri.fr/perso/nrougier/teaching/numpy/numpy.html)
 
-### Pytorch
-[Pytorch tutorials](https://pytorch.org/tutorials/)
-
-[Pytorch forums](https://discuss.pytorch.org/)
-
 
 ### PEP8
 [PEP8 style guide](https://www.python.org/dev/peps/pep-0008/)
