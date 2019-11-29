@@ -46,8 +46,3 @@ We recommend you test your submissions prior to the deadline. Validate your meth
 Keep in mind that the instructors will be running your code, so be sure that it does not depend on local files or environment variables that instructors would otherwise not be able to access.
 
 To be clear, the code will be run by the instructors directly on the cluster **FROM YOUR SUBMISSION FOLDER ON HELIOS** using a test set that is not directly visible to you on the cluster. We will be using the `run_evaluation.sh` scripts on your submissions and expect them to work with no intervention on our end.
-
-
-## Deadline
-
-The deadline to submit your project is Friday Feb. 8th at 11:59 pm EST.
