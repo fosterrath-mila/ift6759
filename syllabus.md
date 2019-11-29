@@ -27,8 +27,11 @@ The course begins on January 8th and finishes on April 17th.
 To be determined
 
 ### GPU Computing Resources
-Class students will have access to an external GPU cluster to work on their projects.
+Class students will have access to an external GPU cluster to work on their projects. However, this cluster will be shared with other users outside of the course. During the following periods, a set of GPUs will be reserved for the students in the class : 
+- Wednesdays from 11h30 to 19h30
+- Fridays from 8h30 to 16h30
 
+Outside of those reserved periods, GPUs on the cluster will be accessible on a "first-come, first-served" basis.
 
 ### Policy on Contribution
 
