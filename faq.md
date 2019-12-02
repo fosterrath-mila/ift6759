@@ -13,5 +13,5 @@ No. Although, you should consider it as an opportunity to practice your presenta
 
 ## How many hours should I expect to work outside of the class hours?<a name="q_hour"></a>
 
-A: If you master the prerequisites of the course provided during the two weeks of the course, then 12 hours should be enough.
+A: If you master the prerequisites of the course provided during the first two weeks of the course, then 12 hours should be enough.
 
