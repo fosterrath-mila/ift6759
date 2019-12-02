@@ -1,5 +1,5 @@
 # IFT6759 - Advanced projects in machine learning
-IFT6759 is a course about implementing deep learning theory to real-world industrial projects.
+IFT6759 is a course about implementing deep learning theory in applied projects.
 
 ## Important files
 - The [Syllabus](https://github.com/mila-udem/ift6759/blob/master/syllabus.md).
