@@ -8,6 +8,8 @@ IFT6759 is a course about implementing deep learning theory in applied projects.
 - The [frequently asked questions (FAQ)](https://github.com/mila-udem/ift6759/blob/master/faq.md).
 - How to run the [containers](https://github.com/mila-udem/ift6759/tree/master/container).
 
+## Mailing list
+You can contact the course's TAs by using the following mailing list : ift6759@mila.quebec
 
 ## Wifi Credentials
 SSID: Mila-Guest
