@@ -9,7 +9,7 @@ IFT6759 is a course about implementing deep learning theory in applied projects.
 - How to run the [containers](https://github.com/mila-udem/ift6759/tree/master/container).
 
 ## Class message board
-This class will use Google Classroom to allow students to communicate with other students and post questions for the TAs. You can access the class's message board with [this link](https://classroom.google.com/u/0/c/NDAyODU1OTQ1ODZa)
+This class will use Google Classroom to allow students to communicate with other students and post questions for the TAs. You can access the class's message board with [this link](https://classroom.google.com/u/0/c/NDAyODU1OTQ1ODZa).
 
 ## Mailing list
 You can contact the course's TAs by using the following mailing list : ift6759@mila.quebec
