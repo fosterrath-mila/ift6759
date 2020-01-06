@@ -8,6 +8,8 @@ Throughout the course, the students will work on two different applied projects 
 ### Instruction Style
 Tutorials will be presented during the first two weeks of the course, as well at specific times during the semester. The remaining class time will be used by students to work on the projects. The TAs will be available during classes to support the students. It is expected that the students will continue to work on the projects outside of class hours.
 
+Every week during the course projects, each team will have a short mandatory meeting with one of the TAs during class hours. The purpose of this meeting is both for the TAs to support the teams by assisting them in brainstorming ideas for the projects, and for the TAs to better monitor the contribution of each person in the team. To that end, each student should enter this meeting prepared to explain the work that he or she has accomplished over the week.
+
 ### Evaluation
 For each of the two class projects, the 4 deliverables from each team (code, best model, report and presentation) will be evaluated by the TAs and will contribute towards the project's group grade. 
 
