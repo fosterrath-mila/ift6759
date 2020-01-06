@@ -23,7 +23,8 @@ The course begins on January 8th and finishes on April 17th.
 - Friday: 9:30-11:30 (Mila Auditorium #2)
 
 ### Office Hours
-- Ankit Vani: Tuesday 14:00-15:00, room J09 (at Mila)
+- Ankit Vani: Tuesday 14:00-15:00, room J09 at Mila (except from Feb 13 to 21 inclusively, during which Ankit will be absent)
+- Breandan Considine: Friday 11:30-12:30pm, Cube 08 (at Mila)
 
 ### GPU Computing Resources
 Class students will have access to an external GPU cluster to work on their projects. However, this cluster will be shared with other users outside of the course. During the following periods, a set of GPUs will be reserved for the students in the class : 
