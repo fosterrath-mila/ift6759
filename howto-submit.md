@@ -2,8 +2,6 @@
 
 In order to ensure a streamlined and easy project submission, please follow these guidelines. Please note that failure to follow these guidelines can result in a submission that will not be accepted.
 
-We have also opened [issues](https://github.com/mila-udem/ift6759/issues) on github. This is a great place to ask your questions, that way others can see responses as well. You can also come talk to us during class and office hours or send us emails.
-
 ## How to submit
 
 You will be submitting your entire projects on the Helios cluster. We have created a repository for you to submit your code. The repository is at
