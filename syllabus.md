@@ -13,9 +13,6 @@ For each of the two class projects, the 4 deliverables from each team (code, bes
 
 A student's individual grade for a project will be based on the group grade with a small adjustment based on peer evaluations. A student who contributed more than his fair share may receive a slighly bonified grade while a student who did not do much might receive a slighly lower grade. Please refer to the [full evaluation grid](https://github.com/mila-udem/ift6759/blob/master/evaluation-grid.pdf) for a complete explanation of the evaluation process.
 
-### Contact
-All questions can be sent to the following email address: <ift6759@mila.quebec>.
-
 ### Class Schedule
 The course begins on January 8th and finishes on April 17th.
 
