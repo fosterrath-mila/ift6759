@@ -1,25 +1,37 @@
 # Submitting your projects
 
-In order to ensure a streamlined and easy project submission, please follow these guidelines. Please note that failure to follow these guidelines can result in a submission that will not be accepted.
-
 ## How to submit
+In order to ensure a streamlined and easy project submission, please follow the evaluation guidelines carefully. Each project will have its own evaluation guidelines. Please note that failure to follow these guidelines can result in a submission that will not be accepted.
+
+[Project 1 guidelines](projects/project1/evaluation.md)
+[Project 2 guidelines](projects/project2/evaluation.md)
+
+## Where to submit
 
 You will be submitting your entire projects on the Helios cluster. We have created a repository for you to submit your code. The repository is at
 
-`/rap/jvb-000-aa/COURS2019/etudiants/submissions/`
+`/project/cq-training-1/project1/submissions/`
+`/project/cq-training-1/project2/submissions/`
 
-Inside the `submissions/` folder, you must create a folder with your team name (i.e. `b1phutN`). There should be one and only one submission per team. Within the folder, we expect to find your report (.pdf format only!), a `model/` directory and a `code/` directory. Your folder structure should look something like this:
+Inside the `submissions/` folder, you must create a folder with your team name (i.e. `team00`). There should be one and only one submission per team. Within the folder, we expect to find your report (.pdf format only!), a `model/` directory and a `code/` directory. Your folder structure should look something like this:
 
 ```
-COURS2019/etudiants/submissions/
-└── b1phutN
-    ├── code
-    │   └── .git/
-    │   └── evaluation
-    │       └── eval.py
-    ├── model
-    │   └── best_model.pth
-    └── sample_report.pdf
+/project/cq-training-1/
+└── project1
+    ├── shared
+    │   └── team00
+            └── ...
+            └── ...
+            └── ...
+    └── submissions
+        └── team00
+            ├── code
+            │   └── .git/
+            │   └── evaluation
+            │       └── eval.py
+            ├── model
+            │   └── best_model.pth
+            └── sample_report.pdf
 
 ```
 
@@ -32,15 +44,3 @@ from within your team directory. Your best model(s) and necessary files that sho
 You should ensure that your project is read-only by other groups using
 
 `chmod -R g+r,g-w,o-r <path_to_team_submission>`
-
-## Running your code
-
-We will be running the code on our own test sets. It is your responsiblity to ensure that the code can be properly run based on the `eval.py` and `run_evaluation.sh` files that were provided to you. These can be found in the [ift6759/projects/](https://github.com/mila-udem/ift6759/tree/master/projects) folder on a per-project basis.
-
-We expect you to have completed the `eval.py` file relevant to your project and ensure that its outputs values are as expected.
-
-We recommend you test your submissions prior to the deadline. Validate your methods with instructors prior to submission if necessary.
-
-Keep in mind that the instructors will be running your code, so be sure that it does not depend on local files or environment variables that instructors would otherwise not be able to access.
-
-To be clear, the code will be run by the instructors directly on the cluster **FROM YOUR SUBMISSION FOLDER ON HELIOS** using a test set that is not directly visible to you on the cluster. We will be using the `run_evaluation.sh` scripts on your submissions and expect them to work with no intervention on our end.
