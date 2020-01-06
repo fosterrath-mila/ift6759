@@ -16,14 +16,40 @@ and correctly generate predictions into text files (using e.g. your own set of v
 that the same code will work on our side for the final test. A dummy dataframe with the same content as the final
 test dataframe is also provided [here](@@@@TODO@@@@).
 
+Note that any modification to the ``evaluator.py`` script outside of the two target functions will be ignored.
+If these functions were not implemented or if something breaks during evaluation, your model will not be ranked,
+and you will be penalized.
+
 ### Data loader preparation (``prepare_dataloader``)
 
-@@@@ TODO
+Our goal is to evaluate the performance of your model, but your model's behavior is tied to the way it receives
+its input data. As such, you will need to "set the table" yourself and connect your own data pipeline to your
+own model for the ultimate test.
 
+If your data pipeline does not only rely on the original data sources (NetCDF/HDF5 files), you will have to
+generate the intermediary files you need in the ``prepare_dataloader`` function. In any case, that function
+must return a ``tf.data.Dataset`` object that is ready to generate input tensors for your model.
+
+A configuration dictionary can optionally be used to provide external hyperparameters to your pipeline's
+constructor. If required, your final submission will need to include this file as ``@@@ TBD @@@``.
+
+For more information on the ``prepare_dataloader`` function, refer to its [docstring](@@@@TODO@@@@).
 
 ### Model preparation (``prepare_model``)
 
-@@@@ TODO
+The model preparation function itself can be fairly minimalistic based on your model's architecture. For
+example, users that built ``tf.keras``-compatible models will only need to fill this function with:
+```
+    model = tf.keras.models.load_model(PATH_TO_MODEL_CHECKPOINT)
+```
+During the final evaluation, your submitted checkpoint will be located in the current working directory,
+meaning you can open it directly using only its name. For more information on the model submission process,
+refer to [this guide](https://github.com/mila-iqia/ift6759/blob/master/howto-submit.md).
+
+A configuration dictionary can optionally be used to provide external hyperparameters to your model's
+constructor. If required, your final submission will need to include this file as ``@@@ TBD @@@``.
+
+For more information on the ``prepare_model`` function, refer to its [docstring](@@@@TODO@@@@).
 
 ## Evaluation utilities
 
