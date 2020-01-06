@@ -6,7 +6,6 @@ IFT6759 is a course about implementing deep learning theory in applied projects.
 - The [Weekly Agenda](https://github.com/mila-udem/ift6759/blob/master/agenda.md) which contains the __deadlines__, the __links to the material__ and the __homeworks__.
 - The [How-to submit a project](https://github.com/mila-udem/ift6759/blob/master/howto-submit.md).
 - The [frequently asked questions (FAQ)](https://github.com/mila-udem/ift6759/blob/master/faq.md).
-- How to run the [containers](https://github.com/mila-udem/ift6759/tree/master/container).
 
 ## Class message board
 This class will use Google Classroom to allow students to communicate with other students and ask public questions for the TAs. Every question posted on the message board will be visible to all the students. As such, if you have private questions, you can communicate with the TAs using the appropriate mailing list (see below). You can access the class's message board with [this link](https://classroom.google.com/u/0/c/NDAyODU1OTQ1ODZa).
