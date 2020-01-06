@@ -1,9 +1,16 @@
 ## Deadlines
 
-- No deliverable for now. You should make sure that you understand the material presented in the various tutorials and that you have done the necessary exercises by __Tuesday January 21st__ in order to be ready for your first project..
+### First project
+- Informal peer evaluations : Friday, February 7th
+- Project deliverables (code, model, report) : Thursday, February 27th
+- Final peer evaluations : Friday, February 28th
+
+### First project
+- Informal peer evaluations : Friday, March 27th.
+- Project deliverables (code, model, report) : Thursday, April 16th
+- Final peer evaluations : Friday, April 17th
 
 ## Agenda
-
 
 ### Week 2 [Jan. 13 - 17]: Introduction to the class and tutorials (continued) <a name="second_week"></a>
 #### Friday, January 17th
