@@ -27,7 +27,7 @@ Your folder structure should look something like this:
             └── ...
 ```
 ## Shared data
-We will be providing you with data that we have prepared specifically for this project. This includes metadata that has been agregated from various sources and formatted in a specific way for this course. All the data that we will provide you with will be in a shared read-only folder accessible to all in:
+We will be providing you with data that we have prepared specifically for this project. This includes metadata that has been aggregated from various sources and formatted in a specific way for this course. All the data that we will provide you with will be in a shared read-only folder accessible to all in:
 
 `/project/cq-training-1/project1/data/`
 
