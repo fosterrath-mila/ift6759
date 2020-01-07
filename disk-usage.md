@@ -13,7 +13,7 @@ All shared drives will be in:
 
 `/project/cq-training-1/project2/teams/`
 
-We ask you, for each project, to create a directory called `teamN` where N is the team number you will be assigned for the project. N=00 is reserved for the TAs as an example. Be sure to set the appropriate permissions to your folders. We ask that you have a single directory per team inside the `teams` folder. Inside the directory, you will be able to create as many subdirectories as you'd like.
+We will create a shared directory for each team inside `teams/`, for each project, called `teamN` where N is the team number you will be assigned for the project. N=00 is reserved for the TAs as an example. Inside the directory, you will be able to create as many subdirectories as you'd like.
 
 Your folder structure should look something like this:
 
