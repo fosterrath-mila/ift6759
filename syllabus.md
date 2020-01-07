@@ -19,8 +19,9 @@ A student's individual grade for a project will be based on the group grade with
 The course begins on January 8th and finishes on April 17th.
 
 ### Class hours:
-- Wednesday: 15:30-17:30 (Mila Agora)
-- Friday: 9:30-11:30 (Mila Auditorium #2)
+All classes for this course will he held at the Mila office on St-Urbain street.
+- Wednesday: 15:30-17:30 (Mila Agora - on the first floor of the 6650 St-Urbain building)
+- Friday: 9:30-11:30 (Mila Auditorium #2 - on the second floor of the 6650 St-Urbain building)
 
 ### Office Hours
 - Ankit Vani: Tuesday 14:00-15:00, room J09 at Mila (in the 6666 St-Urbain building). Note that Ankit will be away from Feb 13 to 21 inclusively.
