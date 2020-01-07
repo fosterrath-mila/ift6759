@@ -36,12 +36,9 @@ Inside the `submissions/` folder, you must create a folder with your team name (
 
 ```
 
-Your `code` repository should be a clone of the code on your master branch of the github repo. It should only contain code that is relevant to the evaluation. This is what will be used by other teams in the peer-review evaluation section of the project. In order to rename a folder to `code` when using `git clone`, you can use
+Your `code` repository should be a clone of the code on your master branch of the github repo. It should only contain code that is relevant to the evaluation. This is what will be used to evaluate your code. In order to rename a folder to `code` when using `git clone`, you can use
 
 `git clone https://github.com/username/your-project code` 
 
-from within your team directory. Your best model(s) and necessary files that should be shared to others for evaluation should go in the `model` directory. It is your responsibility to ensure that your code runs appropriately with respect to the model saved in that path.
+from within your team directory. It is your responsibility to ensure that your submissions runs properly on the test set. This includes making sure proper permissions are set and that proper paths are set according to submission guidelines. 
 
-You should ensure that your project is read-only by other groups using
-
-`chmod -R g+r,g-w,o-r <path_to_team_submission>`
