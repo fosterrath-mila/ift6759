@@ -27,7 +27,7 @@ Your folder structure should look something like this:
             └── ...
 ```
 ## Shared data
-All data that we will provide you with will be in a shared read-only folder accessible to all in:
+We will be providing you with data that we have prepared specifically for this project. This includes metadata that has been agregated from various sources and formatted in a specific way for this course. All the data that we will provide you with will be in a shared read-only folder accessible to all in:
 
 `/project/cq-training-1/project1/data/`
 
@@ -37,6 +37,6 @@ You are free to copy this data to your shared drives or use it directly. Be mind
 
 You can find more information about the data for the projects here:
 
-[Project 1](https://github.com/mila-iqia/ift6759/tree/master/projects/project1)
+* [Project 1](https://github.com/mila-iqia/ift6759/tree/master/projects/project1)
 
-[Project 2](https://github.com/mila-iqia/ift6759/tree/master/projects/project2)
+* [Project 2](https://github.com/mila-iqia/ift6759/tree/master/projects/project2)
