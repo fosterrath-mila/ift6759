@@ -13,7 +13,3 @@ This class will use Google Classroom to allow students to communicate with other
 
 ## Mailing list
 You can contact the course's TAs by using the following mailing list : ift6759@mila.quebec
-
-## Wifi Credentials
-SSID: Mila-Guest
-Password: Bienvenue
