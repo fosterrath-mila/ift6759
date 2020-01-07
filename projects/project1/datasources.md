@@ -1,7 +1,5 @@
 # Data Sources
 
-@@@@@ TODO: add links to helios directories
-
 The raw NetCDF imagery of the Geostationary Operational Environmental Satellite (GOES) provided by the
 NOAA over the period of interest is quite voluminous (**over 800 GBs**). It is split into 15-minute chunks,
 and the imagery itself covers all of the continental United States with several 16-bit channels. For this
@@ -10,6 +8,12 @@ Furthermore, many time periods are not very useful for GHI prediction (for examp
 It is thus recommended to preprocess this data in order to extract only the useful bits and speed up
 training. Remember: faster data loading means more efficient training, and more efficient training means
 more time to evaluate models and tune hyperparameters.
+
+As mentionned in the [disk usage documentation](https://github.com/mila-iqia/ift6759/tree/master/disk-usage.md),
+the data for this project is available in a shared read-only directory:
+```
+/project/cq-training-1/project1/data
+```
 
 We provide three versions of the GOES imagery in order to help you start the project:
  - The original, 16-bit, GZip-compressed (lossless) NetCDF (.nc) files, in 15-minute chunks.
@@ -29,8 +33,8 @@ with the other versions of the data.
 
 Besides, note that the channel data is compressed inside the NetCDF files themselves (GZip), and it will be
 automatically decompressed when the file is opened. If you only want to crop a small region around a station,
-loading and decompressing the data for the entire continental US each time might create a dramatic overhead
-in your data loading pipeline.
+loading and decompressing the data for the entire continental US for each training iteration might create a
+dramatic ingestion overhead in your training process.
 
 You can use [``netCDF4``](https://unidata.github.io/netcdf4-python/netCDF4/index.html) or
 [``h5netcdf``](https://github.com/shoyer/h5netcdf) to read NetCDF files in Python. The latter is less documented

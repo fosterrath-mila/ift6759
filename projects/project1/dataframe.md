@@ -7,6 +7,13 @@ A similar dataframe (minus several GT-related columns) will be used for the fina
 submitted model's performance ([click here](https://github.com/mila-iqia/ift6759/blob/master/projects/project1/evaluation.md)
 for more information).
 
+The pickle file used to reinstantiate the Pandas dataframe is located in the shared (read-only) directory
+mentionned in the [disk usage documentation](https://github.com/mila-iqia/ift6759/tree/master/disk-usage.md),
+that is:
+```
+/project/cq-training-1/project1/data
+```
+
 The dataframe is indexed using timestamps compatible with Python's ``datetime`` package ([more
 info here](https://docs.python.org/3/library/datetime.html)). These timestamps are in Coordinated
 Universal Time (or "UTC"), so do not be worried if sunrise/sunset times seem off. Just keep
