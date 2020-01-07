@@ -18,7 +18,7 @@ Inside the `submissions/` folder, you must create a folder with your team name (
 ```
 /project/cq-training-1/
 └── project1
-    ├── shared
+    ├── teams
     │   └── team00
             └── ...
             └── ...
