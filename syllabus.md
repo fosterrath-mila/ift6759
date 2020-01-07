@@ -19,7 +19,7 @@ A student's individual grade for a project will be based on the group grade with
 The course begins on January 8th and finishes on April 17th.
 
 ### Class hours:
-- Wednesday: 14:30-16:30 (Mila Agora)
+- Wednesday: 15:30-17:30 (Mila Agora)
 - Friday: 9:30-11:30 (Mila Auditorium #2)
 
 ### Office Hours
