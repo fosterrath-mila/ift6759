@@ -27,6 +27,13 @@ If your data pipeline does not only rely on the original data sources (NetCDF/HD
 generate the intermediary representations you need in the ``prepare_dataloader`` function. In any case, that
 function must return a ``tf.data.Dataset`` object that is ready to generate input tensors for your model.
 
+As mentioned in the project presentation, your data pipeline will have access to all the imagery during
+evaluation. However, your model's predictions **cannot** rely on "future" imagery. This means that given
+the list of timestamps to generate predictions for, you can only ever use imagery that comes **before
+(or exactly at)** each of the timestamps. We will be heavily penalizing teams that do not respect this
+rule in their final submission, and we already have scripts in place to detect this. If you are unsure about
+this rule, you can ask a TA for clarifications.
+
 A configuration dictionary can optionally be used to provide (and keep track of) external hyperparameters
 for your pipeline's constructor. If required, your final submission should include a JSON file named
 ``eval_user_cfg.json`` in your team's ``code`` folder (see [this page](../../disk-usage.md) for more info
