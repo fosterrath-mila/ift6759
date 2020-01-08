@@ -23,7 +23,7 @@ All classes for this course will he held at the Mila office on St-Urbain street.
 - Wednesday: 15:30-17:30 (Mila Agora - on the first floor of the 6650 St-Urbain building)
 - Friday: 8:30-10:30 (Mila Agora)
 
-**Please not that both the time and place of the Friday course have been changed** 
+**Please not that both the time and place of the Friday course have been changed from the original schedule.** 
 
 ### Office Hours
 - Ankit Vani: Tuesday 14:00-15:00, room J09 at Mila (in the 6666 St-Urbain building). Note that Ankit will be away from Feb 13 to 21 inclusively.
