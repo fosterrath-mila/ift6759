@@ -15,6 +15,9 @@ setfacl -m default:group:cq-training-1:r-x\
 setfacl -x group:cq-training-1\
         -x default:group:cq-training-1\
         project?/{submissions,teams}/team??
+setfacl -m group:cq-training-1:r-x\
+        -m default:group:cq-training-1:r-x\
+        project?/data
 
 # User group definitions
 setfacl -m user:guest111:rwx\
