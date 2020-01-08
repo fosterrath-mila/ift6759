@@ -67,8 +67,8 @@ behavior of your model, and whether the convenience of the extreme compression c
 ## Decompressing HDF5 data
 
 Utility functions for unpacking the compressed data arrays in the HDF5 files are provided [here](utilities.md).
-These functions are based on [OpenCV](https://opencv.org/), but you could easily modify them to use any other image
-reading library. HDF5 files can be easily opened using [``h5py``](https://www.h5py.org/).
+These functions are based on [``OpenCV``](https://opencv.org/), but you could easily modify them to use any other
+image reading library. HDF5 files can be easily opened using [``h5py``](https://www.h5py.org/).
 
 The HDF5 archives contain the primary channels of interest extracted from the NetCDF files as well as the latitude
 and longitude maps used to associate array values to geographic locations. Each of these is encoded into a dataset
@@ -82,7 +82,7 @@ as what you learn might help you decide which data source to rely on...
 ## Building an efficient data loading pipeline
 
 See [this link](https://www.tensorflow.org/guide/data_performance) for a fairly in-depth tutorial on the development
-and optimization of `tf.data` pipelines.
+and optimization of ``tf.data`` pipelines.
 
 For optimal cluster I/O performance, it is recommended to store data in files that are at least 100MB, and inside
-SLURM's temporary directory ($SLURM_TMPDIR).
+SLURM's temporary directory (``$SLURM_TMPDIR``).
