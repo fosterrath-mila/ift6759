@@ -66,3 +66,8 @@ python evaluator.py output.txt dummy_test_cfg.json -u="eval_user_cfg.json"
 ```
 We will automatically be detecting the user config file and providing if needed it in our own batch
 evaluation script.
+
+Finally, note that your model should in no circumstances produce Not-A-Number (NaN) values as output. The
+evaluation will throw an error if it does, and you will be penalized. If the groundtruth contains a NaN value
+for a target GHI, we will ignore its impact on our end. We will also only focus on daytime sequences, and ignore
+nighttime predictions.
