@@ -4,12 +4,10 @@ We provide a metadata catalog as a [Pandas dataframe](https://pandas.pydata.org/
 to simplify the indexing of raw GHI values and imagery data for training and evaluation purposes. Your
 data loading pipeline is expected to scan this dataframe in order to know which sequences it should load.
 A similar dataframe (minus several GT-related columns) will be used for the final evaluation of your
-submitted model's performance ([click here](https://github.com/mila-iqia/ift6759/blob/master/projects/project1/evaluation.md)
-for more information).
+submitted model's performance ([click here](evaluation.md) for more information).
 
 The pickle file used to reinstantiate the Pandas dataframe is located in the shared (read-only) directory
-mentionned in the [disk usage documentation](https://github.com/mila-iqia/ift6759/tree/master/disk-usage.md),
-that is:
+mentionned in the [disk usage documentation](../../disk-usage.md), that is:
 ```
 /project/cq-training-1/project1/data
 ```
@@ -44,5 +42,4 @@ are provided below:
  - ``<station_code>_GHI``: the real (measured) GHI at the station. This is the "ground truth" that your
    model should predict, and it will obviously not be available in the dataframe used for the final test.
 
-For more information on the NetCDF and HDF5 files, see
-[this page](https://github.com/mila-iqia/ift6759/blob/master/projects/project1/datasources.md).
+For more information on the NetCDF and HDF5 files, see [this page](datasources.md).

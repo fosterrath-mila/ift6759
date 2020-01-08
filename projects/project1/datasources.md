@@ -9,8 +9,8 @@ It is thus recommended to preprocess this data in order to extract only the usef
 training. Remember: faster data loading means more efficient training, and more efficient training means
 more time to try models and tune hyperparameters.
 
-As mentionned in the [disk usage documentation](https://github.com/mila-iqia/ift6759/tree/master/disk-usage.md),
-the data for this project is available in a shared read-only directory:
+As mentionned in the [disk usage documentation](../../disk-usage.md), the data for this project is available
+in a shared read-only directory:
 ```
 /project/cq-training-1/project1/data
 ```
@@ -23,13 +23,12 @@ We provide three versions of the GOES imagery in order to help you start the pro
 We do not provide any in-depth documentation for the file structure of any of these data sources. For the NetCDF
 data, you might be able to find some GOES13 documentation online, but manual inspection using Python should be
 sufficient to identify what to extract. For the HDF5 archives, opening them manually and using the utility functions
-described [here](https://github.com/mila-iqia/ift6759/blob/master/projects/project1/utilities.md) should be enough
-to get you started. Remember, real-world data is rarely well-documented: you will almost always have to dig in and try
-to understand the structure on your own. This is no different, and it should provide you a good opportunity to
-learn how to use debugging/inspection tools.
+described [here](utilities.md) should be enough to get you started. Remember, real-world data is rarely
+well-documented: you will almost always have to dig in and try to understand the structure on your own. This is no
+different, and it should provide you a good opportunity to learn how to use debugging/inspection tools.
 
 Finally, note that the easiest way to associate a UTC timestamp with the provided imagery sources is to rely on
-the provided [dataframe](https://github.com/mila-iqia/ift6759/blob/master/projects/project1/dataframe.md).
+the provided [dataframe](dataframe.md).
 
 ## Original NetCDF files
 
@@ -67,10 +66,9 @@ behavior of your model, and whether the convenience of the extreme compression c
 
 ## Decompressing HDF5 data
 
-Utility functions for unpacking the compressed data arrays in the HDF5 files are provided
-[here](https://github.com/mila-iqia/ift6759/blob/master/projects/project1/utilities.md). These functions are based
-on [OpenCV](https://opencv.org/), but you could easily modify them to use any other image reading library. HDF5
-files can be easily opened using [``h5py``](https://www.h5py.org/).
+Utility functions for unpacking the compressed data arrays in the HDF5 files are provided [here](utilities.md).
+These functions are based on [OpenCV](https://opencv.org/), but you could easily modify them to use any other image
+reading library. HDF5 files can be easily opened using [``h5py``](https://www.h5py.org/).
 
 The HDF5 archives contain the primary channels of interest extracted from the NetCDF files as well as the latitude
 and longitude maps used to associate array values to geographic locations. Each of these is encoded into a dataset

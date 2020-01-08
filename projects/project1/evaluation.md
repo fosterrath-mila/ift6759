@@ -29,10 +29,9 @@ function must return a ``tf.data.Dataset`` object that is ready to generate inpu
 
 A configuration dictionary can optionally be used to provide (and keep track of) external hyperparameters
 for your pipeline's constructor. If required, your final submission should include a JSON file named
-``eval_user_cfg.json`` in your team's ``code`` folder (see
-[this page](https://github.com/mila-iqia/ift6759/blob/master/howto-submit.md) for more info on the submission
-directory structure). For more information on the ``prepare_dataloader`` function, refer to its
-[docstring](evaluator.py).
+``eval_user_cfg.json`` in your team's ``code`` folder (see [this page](../../disk-usage.md) for more info
+on the submission directory structure). For more information on the ``prepare_dataloader`` function, refer
+to its [docstring](evaluator.py).
 
 ### Model preparation (``prepare_model``)
 
@@ -43,14 +42,12 @@ model = tf.keras.models.load_model(PATH_TO_MODEL_CHECKPOINT)
 ```
 During the final evaluation, your submitted checkpoint will be located in the current working directory,
 meaning you can open it directly using only its name. For more information on the model submission process,
-refer to [this guide](https://github.com/mila-iqia/ift6759/blob/master/howto-submit.md).
+refer to [this guide](../../howto-submit.md).
 
 A configuration dictionary can optionally be used to provide (and keep track of) external hyperparameters
 for your model's constructor. If required, your final submission should include a JSON file named
-``eval_user_cfg.json`` in your team's ``code`` folder (see
-[this page](https://github.com/mila-iqia/ift6759/blob/master/howto-submit.md) for more info on the submission
-directory structure). For more information on the ``prepare_model`` function, refer to its
-[docstring](evaluator.py).
+``eval_user_cfg.json`` in your team's ``code`` folder. For more information on the ``prepare_model``
+function, refer to its [docstring](evaluator.py).
 
 ### Testing your modified evaluation script
 
