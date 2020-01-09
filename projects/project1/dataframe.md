@@ -38,7 +38,6 @@ are provided below:
    to analyze the performance of your model in various conditions. This value will not be available in the
    dataframe used for the final test.
  - ``<station_code>_CLEARSKY_GHI``: the GHI estimation at the station obtained using the "clear sky" model.
-   This value will not be available in the dataframe used for the final test.
  - ``<station_code>_GHI``: the real (measured) GHI at the station. This is the "ground truth" that your
    model should predict, and it will obviously not be available in the dataframe used for the final test.
 
