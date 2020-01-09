@@ -1,17 +1,17 @@
 # Model Evaluation Guidelines
 
-We provide [a script](evaluator.py) (``evaluator.py``) in this repository that must be slightly modified in order
-to prepare your own data loading pipeline and model for evaluation. The predictions of your model will be exported
-and compared to the (withheld) groundtruth over the test period. Your prediction errors will then be aggregated and
-compared to those of other teams to create a performance ranking.
+We provide a script ([``evaluator.py``](evaluator.py)) in this repository that must be slightly modified in
+order to prepare your own data loading pipeline and model for evaluation. The predictions of your model will
+be exported and compared to the (withheld) groundtruth over the test period. Your prediction errors will then
+be aggregated and compared to those of other teams to create a performance ranking.
 
 ## Evaluation script
 
-The ``evaluator.py`` script has two important functions: ``prepare_dataloader`` and ``prepare_model``. These will
-be imported into another nearly identical script for final analysis and execution. On your side, ``evaluator.py``
-contains the evaluation loop verything you need to produce model predictions. If you modify the two functions
-and correctly manage to save your model's predictions into text files, you should be OK for the final test on our
-side.
+The [``evaluator.py``](evaluator.py) script has two important functions: ``prepare_dataloader`` and
+``prepare_model``. These will be imported into another nearly identical script for final analysis and execution.
+On your side, ``evaluator.py`` contains the evaluation loop verything you need to produce model predictions.
+If you modify the two functions and correctly manage to save your model's predictions into text files, you
+should be OK for the final test on our side.
 
 Note that any modification to the ``evaluator.py`` script outside of the two target functions will be ignored.
 If these functions were not implemented or if something breaks during evaluation, your model will not be ranked,

@@ -40,8 +40,7 @@ If you want to create your virtual environment on the compute node's local disk 
 performance, you should create it in the ``$SLURM_TMPDIR`` directory from your job's script:
 ```
 #!/bin/bash
-#SBATCH --account=guestXXX
-#SBATCH --mem-per-cpu=1.5G
+#SBATCH --gres=gpu:k80:1
 #SBATCH --time=12:00:00
 
 # .. other slurm options here ...
