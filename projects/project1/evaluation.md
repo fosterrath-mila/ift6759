@@ -59,8 +59,8 @@ function, refer to its [docstring](evaluator.py).
 ### Testing your modified evaluation script
 
 A dummy dataframe with the same columns as the final test dataframe is provided [here](dummy_test_catalog.pkl)
-for pre-testing purposes, and a compatible admin test file is provided [here](dummy_test_cfg.json). These only
-rely on the data already at your disposal, but the real test will rely on withheld data.
+for pre-testing purposes, and a compatible admin test file is provided [here](dummy_test_cfg.json).
+These only rely on the data already at your disposal, but the real test will rely on currently withheld data.
 
 To test your modified evaluation script, you should run it from your team's submission code directory as such:
 ```

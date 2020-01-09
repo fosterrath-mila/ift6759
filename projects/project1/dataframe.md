@@ -9,7 +9,7 @@ submitted model's performance ([click here](evaluation.md) for more information)
 The pickle file used to reinstantiate the Pandas dataframe is located in the shared (read-only) directory
 mentionned in the [disk usage documentation](../../disk-usage.md), that is:
 ```
-/project/cq-training-1/project1/data
+/project/cq-training-1/project1/data/catalog.helios.public.20100101-20160101.pkl
 ```
 
 The dataframe is indexed using timestamps compatible with Python's ``datetime`` package ([more
@@ -27,11 +27,11 @@ are provided below:
  - ``ncdf_path``: The absolute path (on Helios) to the NetCDF file containing the raw (16-bit) imagery data
    for the specified 15-minute interval. Can be "nan" if unavailable. Reminder: the raw NetCDF files are
    only ~4MB chunks, and simultaneous I/O operations on these might become very slow on the cluster.
- - ``hdf5_path``: The absolute path (on Helios) to the HDF5 archive containing a compressed version (8-bit
-   or 16-bit) of the imagery data for the specified 15-minute interval. Since this archive will likely
+ - ``hdf5_[X]bit_path``: The absolute path (on Helios) to an HDF5 archive containing a compressed version
+   (8-bit or 16-bit) of the imagery data for the specified 15-minute interval. Since this archive will likely
    be an aggregate of many 15-minute chunks, the offset below must be used to locate the proper timestamp.
- - ``hdf5_offset``: An integer, non-negative offset value used to index the 15-minute data timestamp that 
-   corresponds to this entry in the previously specified HDF5 archive.
+ - ``hdf5_[X]bit_offset``: An offset (non-negative integer) value used to point to the correct 15-minute
+   element in an HDF5 archive that corresponds to this entry's timestamp.
  - ``<station_code>_DAYTIME``: a binary flag (0/1) indicating whether it is day time at the station or not.
  - ``<station_code>_CLOUDINESS``: a categorical flag (night/cloudy/slightly cloudy/clear/variable) indicating
    the weather conditions at the station. This is a rough estimate based on a heuristic, and may be useful
