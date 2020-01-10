@@ -17,3 +17,6 @@
 #### Wednesday, January 8th
 - [Course presentation](https://github.com/mila-iqia/ift6759/blob/master/tutorials/class-introduction.pdf) (course plan, grading policies, office hours)
 - [Linux shell tutorial](https://docs.google.com/presentation/d/1lJ8eSAhIT6Ou1XcKJ4SKMS0oMnTfhTt2fDl8GmlDzAE/edit?usp=sharing)
+
+#### Friday, January 10th
+- [Cluster tutorial](https://docs.google.com/presentation/d/1o7axnaLHVmx2uadKN3cszAXyNJ7Ia-_QOksYA7DjVqI/edit?usp=sharing)
