@@ -27,10 +27,10 @@ are provided below:
  - ``ncdf_path``: The absolute path (on Helios) to the NetCDF file containing the raw (16-bit) imagery data
    for the specified 15-minute interval. Can be "nan" if unavailable. Reminder: the raw NetCDF files are
    only ~4MB chunks, and simultaneous I/O operations on these might become very slow on the cluster.
- - ``hdf5_[X]bit_path``: The absolute path (on Helios) to an HDF5 archive containing a compressed version
+ - ``hdf5_<x>bit_path``: The absolute path (on Helios) to an HDF5 archive containing a compressed version
    (8-bit or 16-bit) of the imagery data for the specified 15-minute interval. Since this archive will likely
    be an aggregate of many 15-minute chunks, the offset below must be used to locate the proper timestamp.
- - ``hdf5_[X]bit_offset``: An offset (non-negative integer) value used to point to the correct 15-minute
+ - ``hdf5_<x>bit_offset``: An offset (non-negative integer) value used to point to the correct 15-minute
    element in an HDF5 archive that corresponds to this entry's timestamp.
  - ``<station_code>_DAYTIME``: a binary flag (0/1) indicating whether it is day time at the station or not.
  - ``<station_code>_CLOUDINESS``: a categorical flag (night/cloudy/slightly cloudy/clear/variable) indicating
@@ -42,3 +42,17 @@ are provided below:
    model should predict, and it will obviously not be available in the dataframe used for the final test.
 
 For more information on the NetCDF and HDF5 files, see [this page](datasources.md).
+
+## SURFRAD Stations
+
+We are targeting seven stations of interest located in continental United States. Their coordinates
+(latitude, longitude, elevation) are provided below. The station acronyms can be used to lookup the
+metadata of that particular station directly in the catalog.
+
+ - Bondville, IL ("BND") @ 40.05192, -88.37309, 230m;
+ - Table Mountain, CO ("TBL") @ 40.12498, -105.23680, 1689m;
+ - Desert Rock, NV ("DRA") @ 36.62373, -116.01947, 1007m;
+ - Fort Peck, MT ("FPK") @ 48.30783, -105.10170, 634m;
+ - Goodwin Creek, MS ("GWN") @ 34.25470, -89.87290, 98m;
+ - Penn. State University, PA ("PSU") @ 40.72012, -77.93085, 376m;
+ - Sioux Falls, SD ("SXF") @ 43.73403, -96.62328, 473m.
