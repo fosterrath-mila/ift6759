@@ -9,13 +9,17 @@ be aggregated and compared to those of other teams to create a performance ranki
 
 The [``evaluator.py``](evaluator.py) script has two important functions: ``prepare_dataloader`` and
 ``prepare_model``. These will be imported into another nearly identical script for final analysis and execution.
-On your side, ``evaluator.py`` contains the evaluation loop verything you need to produce model predictions.
-If you modify the two functions and correctly manage to save your model's predictions into text files, you
-should be OK for the final test on our side.
+On your side, ``evaluator.py`` contains the evaluation loop and everything else you need to produce and save
+your model's predictions. If you modify the two functions and correctly manage to save predictions into text
+files, you should be OK for the final test on our side.
 
 Note that any modification to the ``evaluator.py`` script outside of the two target functions will be ignored.
 If these functions were not implemented or if something breaks during evaluation, your model will not be ranked,
 and you will be penalized.
+
+You can import 3rd-party packages you require inside the target functions directly. However, these packages
+should be available on PyPI, and these should be listed in the ``requirements.txt`` file submitted alongside
+the evaluation script.
 
 ### Data loader preparation (``prepare_dataloader``)
 
@@ -32,7 +36,7 @@ evaluation. However, your model's predictions **cannot** rely on "future" imager
 the list of timestamps to generate predictions for, you can only ever use imagery that comes **before
 (or exactly at)** each of the timestamps. We will be heavily penalizing teams that do not respect this
 rule in their final submission, and we already have scripts in place to detect this. If you are unsure about
-this rule, you can ask a TA for clarifications.
+this rule, you can ask a TA for clarification.
 
 A configuration dictionary can optionally be used to provide (and keep track of) external hyperparameters
 for your pipeline's constructor. If required, your final submission should include a JSON file named
@@ -45,11 +49,12 @@ to its [docstring](evaluator.py).
 The model preparation function itself can be fairly minimalistic based on your model's architecture. For
 example, users that built ``tf.keras``-compatible models will only need to fill this function with:
 ```
-model = tf.keras.models.load_model(PATH_TO_MODEL_CHECKPOINT)
+path = "/project/cq-training-1/project1/submissions/teamXX/model/best_model.pth"
+model = tf.keras.models.load_model(path)
 ```
-During the final evaluation, your submitted checkpoint will be located in the current working directory,
-meaning you can open it directly using only its name. For more information on the model submission process,
-refer to [this guide](../../howto-submit.md).
+During the final evaluation, your submitted checkpoint should be located in the ``model`` directory alongside
+your code. This means that you will be able to open it directly using its absolute path (as shown above). For
+more information on the model submission process, refer to [this guide](../../howto-submit.md).
 
 A configuration dictionary can optionally be used to provide (and keep track of) external hyperparameters
 for your model's constructor. If required, your final submission should include a JSON file named
@@ -60,7 +65,7 @@ function, refer to its [docstring](evaluator.py).
 
 A dummy dataframe with the same columns as the final test dataframe is provided [here](dummy_test_catalog.pkl)
 for pre-testing purposes, and a compatible admin test file is provided [here](dummy_test_cfg.json).
-These only rely on the data already at your disposal, but the real test will rely on currently withheld data.
+These only rely on the data already at your disposal, but the real test set will rely on withheld data.
 
 To test your modified evaluation script, you should run it from your team's submission code directory as such:
 ```
@@ -76,5 +81,5 @@ evaluation script.
 
 Finally, note that your model should in no circumstances produce Not-A-Number (NaN) values as output. The
 evaluation will throw an error if it does, and you will be penalized. If the groundtruth contains a NaN value
-for a target GHI, we will ignore its impact on our end. We will also only focus on daytime sequences, and ignore
-nighttime predictions.
+for a target GHI, we will ignore its impact on our end. We will also only focus on daytime sequences and thus
+ignore nighttime predictions.

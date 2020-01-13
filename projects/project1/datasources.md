@@ -39,13 +39,13 @@ channels as you please. Understanding the NetCDF file contents might also be nec
 the other versions of the data.
 
 Besides, note that the channel data is compressed inside the NetCDF files themselves (GZip), and it will be
-automatically decompressed when the file is opened. If you only want to crop a small region around a station,
-loading and decompressing the data for the entire continental US in each training iteration might create a
-dramatic ingestion overhead.
+automatically decompressed when the file is opened by the Python package you are using. If you only want to
+crop a small region around a station, loading and decompressing the data for the entire continental US in each
+training minibatch might create a dramatic ingestion overhead.
 
 You can use [``netCDF4``](https://unidata.github.io/netcdf4-python/netCDF4/index.html) or
 [``h5netcdf``](https://github.com/shoyer/h5netcdf) to read NetCDF files in Python. The latter is less documented
-but will it allow multithreaded read access to .nc files "out-of-the-box".
+but will it allow multithreaded read access to .nc files "out-of-the-box" with fewer issues.
 
 ## 16-bit HDF5 archives
 
@@ -75,6 +75,8 @@ and longitude maps used to associate array values to geographic locations. Each 
 object that supports seeking in order to reload one array at a time (i.e. at one timestamp). You should look at the
 ``fetch_hdf5_sample`` function of the utility module in order to reload an array. If you plan on repackaging your
 own HDF5 files, feel free to use the same archive structure (and utility function), or devise your own.
+
+For an overview of the HDF5 file format & specification, see [this introduction](https://support.hdfgroup.org/HDF5/Tutor/HDF5Intro.pdf).
 
 Curious students are also encouraged to dig in and see exactly what information is lost in the compression process,
 as what you learn might help you decide which data source to rely on...
