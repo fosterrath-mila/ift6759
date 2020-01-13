@@ -2,9 +2,9 @@
 
 We provide a metadata catalog as a [Pandas dataframe](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html)
 to simplify the indexing of raw GHI values and imagery data for training and evaluation purposes. Your
-data loading pipeline is expected to scan this dataframe in order to know which sequences it should load.
+data loading pipeline is expected to scan this dataframe in order to know which images it should load.
 A similar dataframe (minus several GT-related columns) will be used for the final evaluation of your
-submitted model's performance ([click here](evaluation.md) for more information).
+submitted model's performance ([see this page](evaluation.md) for more information).
 
 The pickle file used to reinstantiate the Pandas dataframe is located in the shared (read-only) directory
 mentionned in the [disk usage documentation](../../disk-usage.md), that is:
@@ -40,6 +40,9 @@ are provided below:
  - ``<station_code>_CLEARSKY_GHI``: the GHI estimation at the station obtained using the "clear sky" model.
  - ``<station_code>_GHI``: the real (measured) GHI at the station. This is the "ground truth" that your
    model should predict, and it will obviously not be available in the dataframe used for the final test.
+   Remember: this value is unavailable ("NaN") at predetermined intervals (roughly every three hours
+   starting at mightnight every day), but might also be unavailable at other timestamps due to issues
+   with the measurement station.
 
 For more information on the NetCDF and HDF5 files, see [this page](datasources.md).
 
@@ -56,3 +59,24 @@ metadata of that particular station directly in the catalog.
  - Goodwin Creek, MS ("GWN") @ 34.25470, -89.87290, 98m;
  - Penn. State University, PA ("PSU") @ 40.72012, -77.93085, 376m;
  - Sioux Falls, SD ("SXF") @ 43.73403, -96.62328, 473m.
+
+You will need the latitude/longitude coordinates above to locate the stations within the pixelized
+arrays of the NetCDF/HDF5 files. The files contain the 1D arrays required to map these coordinate to
+pixel offset values directly.
+
+## Cloudiness flag
+
+The cloudiness flag given in the dataframe is inspired by the work of Tina et al. (2012), "Analysis of
+forecast errors for irradiance on the horizontal plane" (doi:10.1016/j.enconman.2012.05.031). You can use
+it to evaluate your model's performance in different scenarios, to compute general statistics on the input
+data, or even to create a classification sub-task inside your model.
+
+In the dataframe, this flag can only take five different values: "night", "cloudy", "slightly cloudy", "clear",
+and "variable".
+
+## Clearsky GHI estimations
+
+The clearsky GHI estimates provided in the dataframe are based on the [the pvlib package](https://pvlib-python.readthedocs.io/en/stable/clearsky.html).
+The model used is the one described by Ineichen and Perez (2002) in "A new airmass independent formulation for
+the Linke turbidity coefficient" (doi:10.1016/S0038-092X(02)00045-2). Month-wise Linke turbidity factors are
+queried for each station via latitude/longitude.
