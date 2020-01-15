@@ -52,3 +52,11 @@ pip install -r /path/to/your/project/requirements.txt
 ```
 This will add a bit of overhead to your jobs, but that overhead should be negligible compared to the
 overall executon time.
+
+## How do I use my virtual environment within a JupyterHub notebook?
+
+1. Activate your environment: `source ~/ift6759-env/bin/activate`
+2. `pip install ipykernel`
+3. `python -m ipykernel install --user --name=ift6759-env`
+
+On reloading the JupyerHub root, you should now be able to see `ift6759-env` under New on the top right.
