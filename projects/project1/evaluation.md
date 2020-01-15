@@ -19,7 +19,8 @@ and you will be penalized.
 
 You can import 3rd-party packages you require inside the target functions directly. However, these packages
 should be available on PyPI, and these should be listed in the ``requirements.txt`` file submitted alongside
-the evaluation script.
+the evaluation script. Remember: the evaluation script will be running from within your team's submission
+folder. This means you can easily import your own Python modules that are also placed within this folder.
 
 ### Data loader preparation (``prepare_dataloader``)
 
@@ -46,8 +47,8 @@ to its [docstring](evaluator.py).
 
 ### Model preparation (``prepare_model``)
 
-The model preparation function itself can be fairly minimalistic based on your model's architecture. For
-example, users that built ``tf.keras``-compatible models will only need to fill this function with:
+The model preparation function itself can be fairly minimalistic depending on your model's architecture.
+For example, users that built ``tf.keras``-compatible models will only need to fill this function with:
 ```
 path = "/project/cq-training-1/project1/submissions/teamXX/model/best_model.pth"
 model = tf.keras.models.load_model(path)
@@ -83,3 +84,18 @@ Finally, note that your model should in no circumstances produce Not-A-Number (N
 evaluation will throw an error if it does, and you will be penalized. If the groundtruth contains a NaN value
 for a target GHI, we will ignore its impact on our end. We will also only focus on daytime sequences and thus
 ignore nighttime predictions.
+
+The TAs will be offering evaluation "simulations" during the last class before the submission deadline. This
+will allow you to confirm that:
+
+  - Your team's submission has the expected directory structure;
+  - The dependencies inside your ``requirements.txt`` file can be installed in our job environment;
+  - Your ``evaluator.py`` script's modified functions are compatible with our version of the script;
+  - Your model's checkpoint is indeed accessible and reloadable on our GPUs;
+  - The preparation of your data loading pipeline and model do not take too long or hang; and
+  - Your model's performance is not completely abysmal.
+
+The last point means that TAs might choose to warn you if your model seems to be behaving oddly, but they
+will not give you a direct indication of how well your model performs. We expect the final test set to contain
+roughly 800-1000 different timestamps for which to generate GHI predictions. The time required to prepare your
+data loader/model and infer these GHI values should not exceed (roughly) 30 minutes.
