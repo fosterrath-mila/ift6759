@@ -4,6 +4,7 @@ See the project presentation [here](@@@@TODO@@@@).
 
 ## Documentation pages
 
+- [Introduction](introduction.md)
 - [Imagery sources](datasources.md)
 - [Metadata catalog](dataframe.md)
 - [Evaluation](evaluation.md)
