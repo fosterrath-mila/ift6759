@@ -32,8 +32,12 @@ To reactivate the environment later once it is created:
 ```
 source ~/ift6759-env/bin/activate
 ```
-If you want to create your virtual environment on the compute node directly to improve performance, you
-should create it in the directory specified by ``$SLURM_TMPDIR`` inside your batch script:
+
+Remember that if you create your virtual environment within your home directory (or in your team's
+shared directory), you will be able to access it on both login and compute nodes.
+
+If you want to create your virtual environment on the compute node's local disk directly to improve
+performance, you should create it in the ``$SLURM_TMPDIR`` directory from your job's script:
 ```
 #!/bin/bash
 #SBATCH --account=guestXXX
@@ -60,3 +64,21 @@ overall executon time.
 3. `python -m ipykernel install --user --name=ift6759-env`
 
 On reloading the JupyerHub root, you should now be able to see `ift6759-env` under *New* on the top right.
+
+## Can I install tensorflow (or other packages) directly in a JupyterHub notebook?
+
+Yes, you can, even if you don't have a virtual environment set up. In a code cell, you only have to run:
+```
+!pip install --no-index <package_name>
+```
+For example:
+```
+!pip install --no-index tensorflow-gpu==2.0
+```
+This installation procedure is **NOT** compatible with notebooks created with an external virtual
+enviroment (as detailed in the previous answer).
+
+## Can I use a virtual environment within a JupyterHub terminal?
+
+No, that terminal seems unable (as of 2019/01/15) to capture the changes in environment variables needed
+to 'activate' an environment.
