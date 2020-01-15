@@ -21,7 +21,7 @@ data source for imagery-based models.
 The prediction horizon of interest for the project is ``[T_0, T_0 + 1h, T_0 + 3h, T_0 + 6h]``.
 In other words, given a timestamp ``T_0``, we ask you to provide GHI values for that timestamp
 as well as 1, 3, and 6 hours in the future. Due to the short-term nature of these predictions,
-this is a called a "[nowcasting](https://en.wikipedia.org/wiki/Nowcasting_(meteorology\))" task.
+this is a called a "[nowcasting](<https://en.wikipedia.org/wiki/Nowcasting_(meteorology)>)" task.
 To respect the nature of this problem, predictions for a given ``T_0`` timestep should **never**
 rely on "future" imagery, that is imagery captured after ``T_0``. Models can however rely
 on ``T_0`` as well as any timestep before that.
