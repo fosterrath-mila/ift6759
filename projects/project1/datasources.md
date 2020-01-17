@@ -93,3 +93,27 @@ and optimization of ``tf.data`` pipelines. We recommend focusing on efficient da
 
 For optimal cluster I/O performance, it is recommended to store data in files that are at least 100MB, and inside
 SLURM's temporary directory (``$SLURM_TMPDIR``).
+
+### Pipeline formatting
+
+We expect your data loading pipeline to be a ``tf.data.Dataset`` object (or have a compatible object interface).
+Each iteration over this object should produce a tuple. Each tuple's last-position element should be a tensor
+of target GHI values. All other tuple elements should be provided as inputs for your model. A simple pipeline
+implementation will return two-element tuples, i.e. an input tensor for your model and the target GHI value tensor
+it should predict. An unpacking strategy for the tuples produced by a pipeline is illustrated below:
+```
+data_loader = some.module.create_data_loader(...)
+model = some.other.module.create_model(...)
+...
+# code below runs a single epoch
+for (input_a, input_b, ..., target_output) in data_loader:
+    with tf.GradientTape() as tape:
+        predictions = model(input_a, input_b, ...)
+        loss = criterion(y_true=target_output, y_pred=predictions)
+    grads = tape.gradient(...)
+    ...
+...
+```
+
+Respecting this expected format will be important in order to make your data loading pipeline compatible with
+our [evaluation script](evaluation.md).

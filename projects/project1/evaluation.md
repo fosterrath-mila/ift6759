@@ -31,6 +31,7 @@ own model.
 If your data pipeline does not only rely on the original data sources (NetCDF/HDF5 files), you will have to
 generate the intermediary representations you need in the ``prepare_dataloader`` function. In any case, that
 function must return a ``tf.data.Dataset`` object that is ready to generate input tensors for your model.
+These tensors should be provided in a tuple, as documented [here](datasources.md#pipeline-formatting).
 
 As mentioned in the project presentation, your data pipeline will have access to all the imagery during
 evaluation. However, your model's predictions **cannot** rely on "future" imagery. This means that given
@@ -79,6 +80,12 @@ python evaluator.py output.txt dummy_test_cfg.json -u="eval_user_cfg.json"
 ```
 We will automatically be detecting the user config file and providing if needed it in our own batch
 evaluation script.
+
+As a particularity of the evaluation script, note that we will be providing you with a dictionary of
+the stations of interest for which to prepare your data loader/model. We do this in order to control the
+ordering of the predictions to make sure stations are not arbitrarily mixed. In practice, this means that,
+during the final test, your ``prepare_dataloader`` and ``prepare_model`` functions may be called up to seven
+times each (once per station).
 
 Finally, note that your model should in no circumstances produce Not-A-Number (NaN) values as output. The
 evaluation will throw an error if it does, and you will be penalized. If the groundtruth contains a NaN value
