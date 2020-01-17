@@ -29,6 +29,8 @@ on ``T_0`` as well as any timestep before that.
 The idea behind using satellite imagery for GHI nowcasting is that some atmospheric phenomena
 (e.g. clouds, particles) might be easier to track that way.
 
+For this project, we are only evaluating our models at specific points on the map (i.e. at SURFRAD stations). Ultimately, however, we are interested in models that can generalize to predict GHIs at any point on the map. As such, you can only use data that would be available for the entirety of the map. This means that your model cannot rely on past GHI values measured by stations on the ground, since these would not be available at every point of the map.
+
 ## GOES-13, SURFRAD, and other metadata
 
 We will provide all teams with preprocessed [GOES-13](https://en.wikipedia.org/wiki/GOES_13)
