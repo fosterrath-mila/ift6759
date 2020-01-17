@@ -3,8 +3,8 @@
 The raw NetCDF imagery of the Geostationary Operational Environmental Satellite (GOES)-13 provided by the
 NOAA over the period of interest is quite voluminous (**over 800 GBs**). It is split into 15-minute chunks,
 and the imagery itself covers all of the continental United States with several 16-bit channels. For this
-project's goals, you might only need to focus on small areas of interest around the GHI measurement (SURFRAD)
-stations. Furthermore, many time periods are not very useful for GHI prediction (for example, night time).
+project's goals, you might only need to focus on small areas of interest (i.e. patches) around the GHI measurement (SURFRAD)
+stations. Furthermore, many time periods are not very useful for GHI prediction (for example, night time values are not considered in the evaluation of the models).
 It is thus recommended to preprocess this data in order to extract only the useful bits and speed up
 training. Remember: faster data loading means more efficient training, and more efficient training means
 more time to try models and tune hyperparameters.
@@ -75,7 +75,7 @@ The 16-bit, JPEG2000-compressed HDF5 archives require roughly 50% less storage s
 NetCDF files, and incur a maximum loss of less than ~1% over the original channel's value range. HDF5 archives
 also allow small chunks of data to be read and decompressed individually. This combination provides a good tradeoff
 between storage cost and data loss. However, JPEG2000 decompression is much slower than GZip or JPEG
-decompression. It will be up to you to determine which solution is best.
+decompression. It will be up to you to determine the impact of the various tradeoffs.
 
 ### 8-bit HDF5 archives
 
@@ -89,7 +89,7 @@ behavior of your model, and whether the convenience of the extreme compression c
 ## Building an efficient data loading pipeline
 
 See [this link](https://www.tensorflow.org/guide/data_performance) for a fairly in-depth tutorial on the development
-and optimization of ``tf.data`` pipelines.
+and optimization of ``tf.data`` pipelines. We recommend focusing on efficient data loaders at an early point in the project as it can become a serious bottleneck later on.
 
 For optimal cluster I/O performance, it is recommended to store data in files that are at least 100MB, and inside
 SLURM's temporary directory (``$SLURM_TMPDIR``).
