@@ -29,7 +29,11 @@ on ``T_0`` as well as any timestep before that.
 The idea behind using satellite imagery for GHI nowcasting is that some atmospheric phenomena
 (e.g. clouds, particles) might be easier to track that way.
 
-For this project, we are only evaluating our models at specific points on the map (i.e. at SURFRAD stations). Ultimately, however, we are interested in models that can generalize to predict GHIs at any point on the map. As such, you can only use data that would be available for the entirety of the map. This means that your model cannot rely on past GHI values measured by stations on the ground, since these would not be available at every point of the map.
+For this project, we are only evaluating our models at specific points on the map (i.e. at SURFRAD
+stations). Ultimately, however, we are interested in models that can generalize to predict GHIs at
+any point on the map. As such, you can only use data that would be available for the entirety of
+the map. This means that your model cannot rely on past GHI values measured by stations on the
+ground, since these would not be available at every point of the map.
 
 ## GOES-13, SURFRAD, and other metadata
 
@@ -42,15 +46,20 @@ acquisition timestamps. This data is described in more detail [here](datasources
 A visualization of the GOES-13 imagery along with the measured GHI of the SURFRAD stations is
 available [here](https://drive.google.com/file/d/12myylJZ_pDEORjvMpoHv-10O4HZIwW2y).
 
-GOES-13 imagery is available from April 2010 to December 2016, inclusively, at 15-minute intervals. The availability of this
-data is not perfect, and some files may be missing. The imagery channels themselves may also
-contain pixels tagged as "missing" or "unavailable". It will be up to you to handle these edge
-cases (filling in missing values, dealing with NaNs, etc.). You will have access to the data ranging from April 2010 to December 2015, inclusively. The 2016 data is reserved for our final (blind) test set. While this is technically publicly available data, we ask you **not to use 2016 data to train your models**.
+GOES-13 imagery is available from April 2010 to December 2016, inclusively, at 15-minute intervals.
+The availability of this data is not perfect, and some files may be missing. The imagery channels
+themselves may also contain pixels tagged as "missing" or "unavailable". It will be up to you to
+handle these edge cases (filling in missing values, dealing with NaNs, etc.). You will have access
+to the data ranging from April 2010 to December 2015, inclusively. The 2016 data is reserved for our
+final (blind) test set. While this is technically publicly available data, we ask you
+**not to use 2016 data to train your models**.
 
 The SURFRAD stations provide GHI measurements at 1-minute intervals. To simplify the registration
-of GOES-13 and SURFRAD data sources and to ensure uniformity among data, we provide a [metadata catalog](dataframe.md) in the form of a Pandas dataframe. In that dataframe, the SURFRAD measurements are smoothed to 15-minute intervals
-using a moving average. The SURFRAD measurements may also contain missing values in the form
-of NaNs. Once again, it is up to the students to handle these issues.
+of GOES-13 and SURFRAD data sources and to ensure uniformity among data, we provide a
+[metadata catalog](dataframe.md) in the form of a Pandas dataframe. In that dataframe, the SURFRAD
+measurements are smoothed to 15-minute intervals using a moving average. The SURFRAD measurements
+may also contain missing values in the form of NaNs. Once again, it is up to the students to handle
+these issues.
 
 Finally, the provided metadata catalog includes daytime flags, clear sky GHI estimates and
 cloudiness flags for all 15-minute entries. More information on these is provided [here](dataframe.md).

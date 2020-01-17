@@ -3,8 +3,8 @@
 We provide a metadata catalog as a [Pandas dataframe](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html)
 to simplify the indexing of raw GHI values and imagery data for training and evaluation purposes. Your
 data loading pipeline is expected to scan this dataframe in order to know which data it should load.
-A similar dataframe (minus several columns containing ground-truth values) will be used for the final evaluation of your
-submitted model's performance ([see this page](evaluation.md) for more information).
+A similar dataframe (minus several columns containing ground-truth values) will be used for the final
+evaluation of your submitted model's performance ([see this page](evaluation.md) for more information).
 
 The pickle file used to reinstantiate the Pandas dataframe is located in the shared (read-only) directory
 mentionned in the [disk usage documentation](../../disk-usage.md), that is:
