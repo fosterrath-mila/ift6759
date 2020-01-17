@@ -118,4 +118,8 @@ for (input_a, input_b, ..., target_output) in data_loader:
 ```
 
 Respecting this expected format will be important in order to make your data loading pipeline compatible with
-our [evaluation script](evaluation.md).
+our [evaluation script](evaluation.md). In that case, you will have to reinstantiate your pipeline to load the
+(withheld) test data. This test data will **NOT** include the ground truth GHI values, meaning you will have
+to either return zero-filled target output tensors, or simply return ``None`` as the last element of the
+generated tuples. While this approach may seem strange to some, we argue that it is better than writing two
+versions of your data loading pipeline and introducing new potential disparities.
