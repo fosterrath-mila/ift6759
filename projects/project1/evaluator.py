@@ -93,14 +93,15 @@ def generate_predictions(data_loader: tf.data.Dataset, model: tf.keras.Model, pr
     predictions = []
     with tqdm.tqdm("generating predictions", total=pred_count) as pbar:
         for iter_idx, minibatch in enumerate(data_loader):
-            assert isinstance(minibatch, tuple) and len(minibatch) == 2, \
-                "the data loader should load two elements per minibatch, i.e. the input (imagery) and GT tensors"
-            # remember: the minibatch should contain the input tensor for the model as well as the GT (target)
-            # values, but since we are not training (and the GT is unavailable), we discard the latter half
-            pred = model(minibatch[0])
+            assert isinstance(minibatch, tuple) and len(minibatch) >= 2, \
+                "the data loader should load each minibatch as a tuple with model input(s) and target tensors"
+            # remember: the minibatch should contain the input tensor(s) for the model as well as the GT (target)
+            # values, but since we are not training (and the GT is unavailable), we discard the last element
+            # see https://github.com/mila-iqia/ift6759/blob/master/projects/project1/datasources.md#pipeline-formatting
+            pred = model(*minibatch[:-1])
             if isinstance(pred, tf.Tensor):
                 pred = pred.numpy()
-            assert pred.ndim == 2, "predition tensor shape should be BATCH x SEQ_LENGTH"
+            assert pred.ndim == 2, "prediction tensor shape should be BATCH x SEQ_LENGTH"
             predictions.append(pred)
             pbar.update(len(pred))
     return np.concatenate(predictions, axis=0)
