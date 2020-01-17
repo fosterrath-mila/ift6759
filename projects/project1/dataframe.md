@@ -3,7 +3,7 @@
 We provide a metadata catalog as a [Pandas dataframe](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html)
 to simplify the indexing of raw GHI values and imagery data for training and evaluation purposes. Your
 data loading pipeline is expected to scan this dataframe in order to know which data it should load.
-A similar dataframe (minus several GT-related columns) will be used for the final evaluation of your
+A similar dataframe (minus several columns containing ground-truth values) will be used for the final evaluation of your
 submitted model's performance ([see this page](evaluation.md) for more information).
 
 The pickle file used to reinstantiate the Pandas dataframe is located in the shared (read-only) directory
@@ -15,8 +15,8 @@ mentionned in the [disk usage documentation](../../disk-usage.md), that is:
 The dataframe is indexed using timestamps compatible with Python's ``datetime`` package ([more
 info here](https://docs.python.org/3/library/datetime.html)). These timestamps are in Coordinated
 Universal Time (or "UTC"), so do not be worried if sunrise/sunset times seem off. Just keep
-this in mind if you plan on using local (station) times in your solution. The dataframe possesses
-an entry for every 15 minute interval over the entire 2010-2015 period. If data is missing in an
+this in mind if you plan on using local (station) times in your final submission. The dataframe possesses
+an entry for every possible 15 minute interval over the entire 2010-2015 period. If data is missing in an
 interval, the dataframe will still have an indexed entry, but some of its attributes may be "NaNs".
 
 ## Dataframe columns
