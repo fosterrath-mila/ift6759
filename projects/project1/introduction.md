@@ -42,14 +42,13 @@ acquisition timestamps. This data is described in more detail [here](datasources
 A visualization of the GOES-13 imagery along with the measured GHI of the SURFRAD stations is
 available [here](https://drive.google.com/file/d/12myylJZ_pDEORjvMpoHv-10O4HZIwW2y).
 
-GOES-13 imagery is available from 2010 to 2015 at 15-minute intervals. The availability of this
-data is not perfect, and some files may be missing. The imagery channels themselves main also
+GOES-13 imagery is available from April 2010 to December 2016, inclusively, at 15-minute intervals. The availability of this
+data is not perfect, and some files may be missing. The imagery channels themselves may also
 contain pixels tagged as "missing" or "unavailable". It will be up to you to handle these edge
-cases. The 2016 data is reserved for our final (blind) test set.
+cases (filling in missing values, dealing with NaNs, etc.). You will have access to the data ranging from April 2010 to December 2015, inclusively. The 2016 data is reserved for our final (blind) test set. While this is technically publicly available data, we ask you **not to use 2016 data to train your models**.
 
 The SURFRAD stations provide GHI measurements at 1-minute intervals. To simplify the registration
-of GOES-13 and SURFRAD data sources, we provide a [metadata catalog](dataframe.md) in the form of
-a Pandas dataframe. In that dataframe, the SURFRAD measurements are smoothed to 15-minute intervals
+of GOES-13 and SURFRAD data sources and to ensure uniformity among data, we provide a [metadata catalog](dataframe.md) in the form of a Pandas dataframe. In that dataframe, the SURFRAD measurements are smoothed to 15-minute intervals
 using a moving average. The SURFRAD measurements may also contain missing values in the form
 of NaNs. Once again, it is up to the students to handle these issues.
 
