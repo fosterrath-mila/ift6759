@@ -98,7 +98,10 @@ def generate_predictions(data_loader: tf.data.Dataset, model: tf.keras.Model, pr
             # remember: the minibatch should contain the input tensor(s) for the model as well as the GT (target)
             # values, but since we are not training (and the GT is unavailable), we discard the last element
             # see https://github.com/mila-iqia/ift6759/blob/master/projects/project1/datasources.md#pipeline-formatting
-            pred = model(*minibatch[:-1])
+            if len(minibatch) == 2:  # there is only one input + groundtruth, give the model the input directly
+                pred = model(minibatch[0])
+            else:  # the model expects multiple inputs, give them all at once using the tuple
+                pred = model(minibatch[:-1])
             if isinstance(pred, tf.Tensor):
                 pred = pred.numpy()
             assert pred.ndim == 2, "prediction tensor shape should be BATCH x SEQ_LENGTH"
