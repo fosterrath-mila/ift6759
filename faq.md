@@ -15,7 +15,7 @@ No. Although, you should consider it as an opportunity to practice your presenta
 
 If you master the prerequisites of the course provided during the first two weeks of the course, then 12 hours should be enough.
 
-## How can I create/use a tensorflow 2.0-compatible virtual environment on Helios?
+## How can I create/use a TensorFlow 2.0-compatible virtual environment on Helios?
 
 To create a virtual environment (here, named ``ift6759-env``) in your home directory:
 ```
@@ -65,7 +65,7 @@ overall executon time.
 
 On reloading the JupyerHub root, you should now be able to see `ift6759-env` under *New* on the top right.
 
-## Can I install tensorflow (or other packages) directly in a JupyterHub notebook?
+## Can I install TensorFlow (or other packages) directly in a JupyterHub notebook?
 
 Yes, you can, even if you don't have a virtual environment set up. In a code cell, you only have to run:
 ```
@@ -82,3 +82,7 @@ enviroment (as detailed in the previous answer).
 
 No, that terminal seems unable (as of 2019/01/15) to capture the changes in environment variables needed
 to 'activate' an environment.
+
+## How do create a SSH key to avoid entering my username and password each time?
+
+Ubuntu and Mac OS users can follow [these instructions](https://help.ubuntu.com/community/SSH/OpenSSH/Keys) to generate an SSH keypair. The same process can be used to [authenticate with GitHub](https://help.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account).
