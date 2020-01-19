@@ -13,7 +13,7 @@ Every week during the course projects, each team will have a short mandatory mee
 ### Evaluation
 For each of the two class projects, the 4 deliverables from each team (code, best model, report and presentation) will be evaluated by the TAs and will contribute towards the project's group grade. 
 
-A student's individual grade for a project will be based on the group grade with a small adjustment based on peer evaluations. A student who contributed more than his fair share may receive a slighly bonified grade while a student who did not do much might receive a slighly lower grade. Please refer to the [full evaluation grid](https://github.com/mila-udem/ift6759/blob/master/evaluation-grid.pdf) for a complete explanation of the evaluation process.
+A student's individual grade for a project will be based on the group grade with a small adjustment based on peer evaluations. A student who contributed more than his or her fair share may receive a slighly higher grade while a student who did not do much might receive a slighly lower grade. Please refer to the [full evaluation grid](https://github.com/mila-udem/ift6759/blob/master/evaluation-grid.pdf) for a complete explanation of the evaluation process.
 
 ### Class Schedule
 The course begins on January 8th and finishes on April 17th.
