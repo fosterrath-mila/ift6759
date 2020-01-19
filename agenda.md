@@ -25,9 +25,13 @@
 ### Week 2 [Jan. 13 - 17]: Tutorials continued <a name="second_week"></a>
 
 #### Wednesday, January 15th
-- [Tensorflow 2.0 tutorial](https://drive.google.com/file/d/1jkeBU15uPZkTc4nNtolcA0ww41BI35WK/view?usp=sharing)
+- [TensorFlow 2.0 tutorial](https://drive.google.com/file/d/1jkeBU15uPZkTc4nNtolcA0ww41BI35WK/view?usp=sharing)
 
 #### Friday, January 17th
-- [Git & Github tutorial](https://drive.google.com/file/d/1EblDeV4GQv89Xu0J_6zAlTUUmKu0swNu/view?usp=sharing)
+- [Git & GitHub tutorial](https://drive.google.com/file/d/1EblDeV4GQv89Xu0J_6zAlTUUmKu0swNu/view?usp=sharing)
 
 
+### Week 3 [Jan. 20 - 24]: Project 1 introduction <a name="third_week"></a>
+
+#### Wednesday, January 22nd
+- [Solar Irradiance Project](https://docs.google.com/presentation/d/1jrozj0cLCsrJCBtXJKte6pHPNrkXh4_FM0KO05TIvGM/edit?usp=sharing) - n.b. all students are expected to be present
