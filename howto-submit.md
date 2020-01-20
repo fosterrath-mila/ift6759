@@ -2,10 +2,10 @@
 
 ## How to submit
 In order to ensure a streamlined and easy project submission, please follow the evaluation guidelines
-carefully. Each project will have its own evaluation guidelines. Please note that failure to follow
-these guidelines can result in a submission that will not be accepted.
+carefully. Each project has its own evaluation guidelines. Please note that failure to follow these
+guidelines can result in a submission that will not be accepted.
 
-[Project 1 guidelines](projects/project1/evaluation.md) (to be added soon)
+[Project 1 guidelines](projects/project1/evaluation.md)
 
 [Project 2 guidelines](projects/project2/evaluation.md) (to be added soon)
 
@@ -34,6 +34,7 @@ format only!), a `model/` directory and a `code/` directory. Your folder structu
             ├── code
             │   └── .git/
             │   └── ...
+            │   └── requirements.txt
             │   └── evaluator.py
             ├── model
             │   └── best_model.pth
@@ -42,8 +43,9 @@ format only!), a `model/` directory and a `code/` directory. Your folder structu
 ```
 
 Your `code` repository should be a clone of your master branch on github. It should contain all the code that
-is relevant for the evaluation. The `evaluator.py` script must be located in this folder as well, and it should
-be properly updated to work your with your other Python modules.
+is relevant for the evaluation. It should also contain a `requirements.txt` file listing your project's dependencies
+so that we can easily reinstall an environment compatible with your code. The `evaluator.py` script must be located
+in this folder as well, and it should be properly updated to work your with your other Python modules.
 
 In order to rename a folder to `code` when using `git clone`, you can use
 
