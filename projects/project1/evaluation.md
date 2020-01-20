@@ -87,6 +87,14 @@ ordering of the predictions to make sure stations are not arbitrarily mixed. In 
 during the final test, your ``prepare_dataloader`` and ``prepare_model`` functions may be called up to seven
 times each (once per station).
 
+Regarding the "datetimes" that will be used for the final test: as mentioned in the project presentation, we
+will be focused on daytime GHI predictions. Also, for a single "target datetime" (``T_0``), remember that we
+expect your model to produce four GHI values, i.e. one for each of ``[T_0, T_0 + 1h, T_0 + 3h, T_0 + 6h]``.
+Due to the wide "horizon" that a single target datetime covers, it is possible that predictions for ``T_0`` may
+fall in nighttime (e.g. if ``T_0`` is 4PM).  In order to still properly cover all real use cases of a GHI
+prediction model, we will still ask for prediction sequences that partly fall after sunset or before sunrise.
+In those cases, only the GHI predictions that correspond to timestamps in the day will be kept for analysis.
+
 Finally, note that your model should in no circumstances produce Not-A-Number (NaN) values as output. The
 evaluation will throw an error if it does, and you will be penalized. If the groundtruth contains a NaN value
 for a target GHI, we will ignore its impact on our end. We will also only focus on daytime sequences and thus
