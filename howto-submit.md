@@ -2,10 +2,10 @@
 
 ## How to submit
 In order to ensure a streamlined and easy project submission, please follow the evaluation guidelines
-carefully. Each project will have its own evaluation guidelines. Please note that failure to follow
-these guidelines can result in a submission that will not be accepted.
+carefully. Each project has its own evaluation guidelines. Please note that failure to follow these
+guidelines can result in a submission that will not be accepted.
 
-[Project 1 guidelines](projects/project1/evaluation.md) (to be added soon)
+[Project 1 guidelines](projects/project1/evaluation.md)
 
 [Project 2 guidelines](projects/project2/evaluation.md) (to be added soon)
 
