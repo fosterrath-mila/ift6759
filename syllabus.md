@@ -26,7 +26,7 @@ All classes for this course will he held at the Mila office on St-Urbain street.
 **Please not that both the time and place of the Friday course have been changed from the original schedule.** 
 
 ### Office Hours
-- Ankit Vani: Tuesday 14:00-15:00, room J09 at Mila (in the 6666 St-Urbain building). Note that Ankit will be away from Feb 13 to 21 inclusively.
+- Ankit Vani: Tuesday 14:00-15:00, room J09 at Mila (in the 6650 St-Urbain building). Note that Ankit will be away between Feb 13 to 21 inclusively.
 - Breandan Considine: Friday 11:30-12:30, Cube 08 at Mila (in the 6650 St-Urbain building)
 - Krishna Murthy: Friday 11:30-12:30, room D07 at Mila (in the 6666 St-Urbain building) 
 
