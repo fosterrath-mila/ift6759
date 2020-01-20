@@ -6,7 +6,7 @@ IFT6759 is a course about implementing deep learning theory in applied projects.
 - The [Weekly Agenda](https://github.com/mila-udem/ift6759/blob/master/agenda.md) which contains the __deadlines__, the __links to the material__ and the __homeworks__.
 - Information on [accessing the Helios cluster](https://docs.google.com/document/d/1-a0vWkz7x5JNSlDRdf5EW2wRLviC4F__g4S4YGexHZA/edit?usp=sharing)
 - Information on [Disk Usage](https://github.com/mila-udem/ift6759/blob/master/disk-usage.md) on [Helios](https://wiki.calculquebec.ca/w/Helios/en)
-- The [Evaluation grid](https://github.com/mila-iqia/ift6759/blob/master/evaluation-grid.pdf) which also contains information regarding the project deadlines
+- The [Evaluation grid](https://github.com/mila-iqia/ift6759/blob/master/evaluation-grid.pdf)
 - The [How-to submit a project](https://github.com/mila-udem/ift6759/blob/master/howto-submit.md).
 - The [frequently asked questions (FAQ)](https://github.com/mila-udem/ift6759/blob/master/faq.md).
 
