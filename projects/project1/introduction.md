@@ -1,6 +1,6 @@
 # GHI Nowcasting Introduction
 
-Note: this is a recap of some of the presentation slides available [here](@@@TODO@@@).
+Note: this is a recap of some of the presentation slides available [here](solar_irradiance_presentation.pdf).
 
 ## Goal
 
