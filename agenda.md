@@ -3,11 +3,13 @@
 ### First project
 - Informal peer evaluations : Friday, February 7th
 - Project deliverables (code, model, report) : Thursday, February 27th
+- Project presentations : Friday, February 28th
 - Final peer evaluations : Friday, February 28th
 
 ### Second project
 - Informal peer evaluations : Friday, March 27th.
 - Project deliverables (code, model, report) : Thursday, April 16th
+- Project presentations : Friday, April 17th
 - Final peer evaluations : Friday, April 17th
 
 ## Agenda
