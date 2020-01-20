@@ -76,7 +76,20 @@ function. This may help you understand the role of each available imagery channe
 impact of cloud cover over a measurement station.
 
 The animation shown in the project presentation is obtained using this function with 8-bit
-imagery for June 21st, 2010, and for the following channels: ``["ch1", "ch2", "ch3", "ch4", "ch6"]``. 
+imagery for June 21st, 2010, and for the following channels: ``["ch1", "ch2", "ch3", "ch4", "ch6"]``.
+
+Remember that you might not be able to forward display windows from Helios nodes to your
+local display manager. This might force you to run these visualization completely offline.
+
+Example usage:
+```
+>>> hdf5_path = "/some/local/path/project1/data/hdf5v7_8bit2010.06.21.0800.h5"
+>>> target_channels = ["ch1", "ch2", "ch3", "ch4", "ch6"]
+>>> dataframe_path = "/some/local/path/project1/data/some.local.catalog.pkl"
+>>> stations = {"BND": (lat, lon, elev), "TBL": (lat, lon, elev), ...}
+>>> viz_hdf5_imagery(hdf5_path, target_channels, dataframe_path, stations)
+# the above line will block until the visualization is stopped...
+```
 
 ## Visualizing GHI predictions
 
@@ -90,3 +103,6 @@ for which you also have an example [here](dummy_test_cfg.json).
 Feel free to ignore this function and instead only rely on its subfunctions (``draw_daily_ghi``
 and ``plot_ghi_curves``) if you want to incorporate it into your own code, or if you wish
 to customize it in any way.
+
+Remember that you might not be able to forward display windows from Helios nodes to your
+local display manager. This might force you to run these visualization completely offline.
