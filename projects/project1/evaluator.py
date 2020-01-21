@@ -21,7 +21,7 @@ def prepare_dataloader(
 
     Note that you can use either the netCDF or HDF5 data. Each iteration over your data loader should return a
     2-element tuple containing the tensor that should be provided to the model as input, and the target values. In
-    this specific case, you will not be able to provide the latter since we the dataframe contains no GHI, and we are
+    this specific case, you will not be able to provide the latter since the dataframe contains no GHI, and we are
     only interested in predictions, not training. Therefore, you must return a placeholder (or ``None``) as the second
     tuple element.
 
