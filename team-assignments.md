@@ -5,7 +5,6 @@
 - Rajkumar, Nitarshan
 
 ## Team 02
-- Riendeau, Erik-Olivier D.
 - Carmo, Fernanda
 - Girotti, Manuela
 - Bai, Yifan
@@ -77,6 +76,7 @@
 - Gupta, Raghav
 - Traifi, Sabi
 - El Mesbahi, Yassir
+- Trudel, Jeremy
 
 ## Team 14
 - Lagrange, Guillaume
