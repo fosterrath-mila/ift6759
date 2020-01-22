@@ -1,6 +1,6 @@
 # IFT6759 - Project 1: Solar Irradiance Prediction
 
-See the project presentation [here](solar_irradiance_presentation.pdf).
+See the project presentation [here](https://docs.google.com/presentation/d/1jrozj0cLCsrJCBtXJKte6pHPNrkXh4_FM0KO05TIvGM/edit?usp=sharing).
 
 ## Documentation pages
 
