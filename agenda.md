@@ -37,3 +37,6 @@
 
 #### Wednesday, January 22nd
 - [Solar Irradiance Project](https://docs.google.com/presentation/d/1jrozj0cLCsrJCBtXJKte6pHPNrkXh4_FM0KO05TIvGM/edit?usp=sharing) - n.b. all students are expected to be present
+
+#### Friday, January 24th
+- Working session
