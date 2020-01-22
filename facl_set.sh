@@ -25,7 +25,7 @@ setfacl -m user:guest111:rwx\
         -m user:guest113:rwx\
         -m user:guest114:rwx\
         project?/{submissions,teams}/team01
-setfacl -m user:guest115:rwx\
+setfacl -m user:guest115:---\
         -m user:guest116:rwx\
         -m user:guest117:rwx\
         -m user:guest118:rwx\
@@ -87,6 +87,7 @@ setfacl -m user:guest159:rwx\
         -m user:guest161:rwx\
         -m user:guest162:---\
         -m user:guest168:rwx\
+        -m user:guest170:rwx\
         project?/{submissions,teams}/team13
 setfacl -m user:guest163:rwx\
         -m user:guest164:rwx\
