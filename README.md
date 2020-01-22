@@ -10,6 +10,7 @@ IFT6759 is a course about implementing deep learning theory in applied projects.
 - The [schedule for the TA meetings](https://github.com/mila-iqia/ift6759/blob/master/TA-meetings-schedule.pdf)
 - The [team assignments for the projects](https://github.com/mila-iqia/ift6759/blob/master/team-assignments.md)
 - The [How-to submit a project](https://github.com/mila-udem/ift6759/blob/master/howto-submit.md).
+- The [form to submit peer evaluations](https://github.com/mila-iqia/ift6759/blob/master/peer-evaluations-form.docx).
 - The [frequently asked questions (FAQ)](https://github.com/mila-udem/ift6759/blob/master/faq.md).
 
 ## Class message board
