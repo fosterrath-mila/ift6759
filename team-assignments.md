@@ -24,9 +24,9 @@
 
 ## Team 05
 - Al-Khoury, André
-- Adabra, Kodjovi
 - Dupont, Laurence
 - Duguay, William
+- Trudel, Jeremy
 
 ## Team 06
 - Agarwal, Ankur
@@ -76,7 +76,6 @@
 - Gupta, Raghav
 - Traifi, Sabi
 - El Mesbahi, Yassir
-- Trudel, Jeremy
 
 ## Team 14
 - Lagrange, Guillaume
