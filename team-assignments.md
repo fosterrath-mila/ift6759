@@ -6,9 +6,9 @@
 
 ## Team 02
 - Carmo, Fernanda
-- Girotti, Manuela
 - Bai, Yifan
 - Francis, Sreya
+- Xiao, Ying
 
 ## Team 03
 - Gauvin St-Denis, Blaise
@@ -62,7 +62,6 @@
 - Néron Alexandre
 - Runghen-Vézina Nikky
 - Kassanaly, Rahim
-- Xiao, Ying
 - Ferland, David
 
 ## Team 12
@@ -82,4 +81,3 @@
 - Arora, Himanshu
 - Mohammad-Shahi, Maziar
 - Maganti, Swetha Srikari
-- Laleh, Touraj
