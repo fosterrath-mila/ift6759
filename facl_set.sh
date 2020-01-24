@@ -95,7 +95,7 @@ setfacl -m user:guest163:rwx\
         -m user:guest164:rwx\
         -m user:guest165:rwx\
         -m user:guest166:rwx\
-        -m user:guest167:rwx\
+        -m user:guest167:---\
         project?/{submissions,teams}/team14
 
 popd
