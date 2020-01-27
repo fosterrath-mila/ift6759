@@ -40,3 +40,12 @@
 
 #### Friday, January 24th
 - Working session
+
+
+### Week 4 [Jan. 27 - 31]: Project 1 <a name="fourth_week"></a>
+
+#### Wednesday, January 29th
+- Working session + TA meetings
+
+#### Friday, January 31st
+- Working session
